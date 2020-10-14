@@ -109,9 +109,13 @@ html{
 }
 
 .footer {
-    padding: 40px;
-    text-align: center;
+    /* padding: 40px; */
+    text-align: left;
     background:  #663701;
+    color: white;
+    padding: 60px 100px 60px;
+    padding-left: 150px;
+    justify-content: space-between;
   }
 
 /*--snack box--*/
@@ -398,7 +402,7 @@ html{
     position: relative;
     width: 0;
     height: 0;
-     margin-top:-30px;
+    margin-top:-30px;
     margin-left: 0px;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
