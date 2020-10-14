@@ -683,4 +683,76 @@ html{
   width: 325px;
   text-align: center;
 }
+/* about */
+.zen1946 {
+  margin-top: -15px;
+  margin-left: 20px;
+  border-left: 1.5px solid black;
+  height: 150px;
+
+}
+.zen1950 {
+  margin-top: -15px;
+  margin-left: 20px;
+  border-left: 1.5px solid black;
+  height: 120px;
+
+}
+.zenQSR {
+  margin-top: -20px;
+  margin-left: 20px;
+  border-left: 1.5px solid black;
+  height: 220px;
+
+}
+.zen1981 {
+  margin-top: -15px;
+  margin-left: 20px;
+  border-left: 1.5px solid black;
+  height: 200px;
+
+}
+.zen2016 {
+  margin-top: -15px;
+  margin-left: 20px;
+  border-left: 1.5px solid black;
+  height: 270px;
+
+}
+.zenCSR{
+  margin-top: -15px;
+  margin-left: 20px;
+  border-left: 1.5px solid black;
+  height: 300px;
+
+}
+.zen1989{
+  margin-top: -15px;
+  margin-left: 20px;
+  border-left: 1.5px solid black;
+  height: 80px;
+
+}
+.zen2010{
+  margin-top: -15px;
+  margin-left: 20px;
+  border-left: 1.5px solid black;
+  height: 130px;
+
+}
+.zen2011{
+  margin-top: -15px;
+  margin-left: 20px;
+  border-left: 1.5px solid black;
+  height: 180px;
+
+}
+.barpink{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #ff03a9;
+
+}
 
