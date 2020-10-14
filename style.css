@@ -6,7 +6,11 @@
     font-style: normal;
 
 }
-    p{
+
+html{
+  scroll-behavior: smooth;
+}
+    h1,p{
         font-family: 'db_ozone_xregular';
     }
 .dd-navbar{
@@ -406,6 +410,12 @@
   }
 
   #coffee:hover{-webkit-transform:scale(1.02);transform:scale(1.02);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}
+
+   .arrow:hover{
+           margin-left: 5px;
+   }
+  
+
 
   .line1 {
     margin-left: 50px;
