@@ -755,10 +755,30 @@ html{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
+  height: 2050px;
+  width: 250px;
   background-color: #ff03a9;
+  float: right;
+  position: absolute;
+}
+.barpink a{
+  color: white;
 
 }
+.barpink a:hover{
+  text-decoration: none;
+  color: white;
+}
+/* Contact */
+.pink{
+  
+  height: 560px;
+  width: 650px;
+  background-color: #ee4297 ;
+  text-align: center;
+}
+
+
 
 .content {
   background-color: #df2e80;
@@ -775,4 +795,35 @@ html{
 
 
 
+/*--DDCard--*/
+.content-wrapper{
+  width: 100%;
+}
+.text-wrapper{
+  position: relative;
+  margin-top: -7.5%;
+}
+.text-wrapper h4{
+  margin-left: 16%;
+  text-align: left;
+  color: black;
+  font-size: 1.3vw;
+}
+.text-wrapper h6{
+margin-left: 16%;
+text-align: left;
+color: black;
+}
+.content1{
+  text-align: center;
+}
+.content1 h6{
+  margin-bottom: 4%;
+}
+.text2{
+text-align: center;
+}
+.text3{
+  margin-left: 28%;
+}
 
