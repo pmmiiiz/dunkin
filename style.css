@@ -755,8 +755,18 @@ html{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
+  height: 2050px;
+  width: 250px;
   background-color: #ff03a9;
+  float: right;
+  position: absolute;
+}
+.barpink a{
+  color: white;
 
+}
+.barpink a:hover{
+  text-decoration: none;
+  color: white;
 }
 
