@@ -760,3 +760,19 @@ html{
 
 }
 
+.content {
+  background-color: #df2e80;
+  color: #fff;
+  text-align: center;
+}
+
+.hr{
+  width:16px;
+  height:1px;
+  margin:0 auto;
+  background-color:#fff
+}
+
+
+
+
