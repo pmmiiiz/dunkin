@@ -4,8 +4,98 @@
          url('db_ozone_x_v3.2-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
+@font-face {
+  font-family: 'Courier New';
+  src: url('CourierNewPSMT.woff2') format('woff2'),
+      url('CourierNewPSMT.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inheritance Font';
+  src: url('InheritanceFont.woff2') format('woff2'),
+      url('InheritanceFont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Monospace';
+  src: url('MonospaceBold.woff2') format('woff2'),
+      url('MonospaceBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Monospace';
+  src: url('Monospace.woff2') format('woff2'),
+      url('Monospace.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Monospace';
+  src: url('MonospaceOblique.woff2') format('woff2'),
+      url('MonospaceOblique.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('Gotham-Bold.woff2') format('woff2'),
+      url('Gotham-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('Gotham-Book.woff2') format('woff2'),
+      url('Gotham-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Ozone X';
+  src: url('DBOzoneX.woff2') format('woff2'),
+      url('DBOzoneX.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Ozone X';
+  src: url('DBOzoneX-Bold.woff2') format('woff2'),
+      url('DBOzoneX-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Ozone X';
+  src: url('DBOzoneX-Light.woff2') format('woff2'),
+      url('DBOzoneX-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 html{
   scroll-behavior: smooth;
@@ -826,4 +916,5 @@ text-align: center;
 .text3{
   margin-left: 28%;
 }
+
 
