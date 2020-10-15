@@ -771,13 +771,26 @@ html{
 }
 /* Contact */
 .pink{
-  
-  height: 560px;
+  margin-top: -6px;
+  height:  550px;
   width: 650px;
   background-color: #ee4297 ;
   text-align: center;
+  justify-content: center;
 }
-
+.sm-btn{
+  background-color: white;
+  text-align: center;
+  border-radius: 0;
+  border: 2px solid black;
+  padding: 6px 23px;
+  font-size: 12px; 
+}
+.sm-btn a:hover{
+  background-color:#000;
+  color:#fff;
+  text-decoration: none;
+}
 
 
 .content {
