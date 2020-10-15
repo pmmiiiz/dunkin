@@ -769,4 +769,11 @@ html{
   text-decoration: none;
   color: white;
 }
-
+/* Contact */
+.pink{
+  
+  height: 560px;
+  width: 650px;
+  background-color: #ee4297 ;
+  text-align: center;
+}
