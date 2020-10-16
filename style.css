@@ -310,19 +310,19 @@ html{
   }
 
   .square33 {
-    height: 350px;
-    width: 350px;
+    height: 325px;
+    width: 325px;
     background-color: #F2F2F2;
   }
   .square44 {
-    height: 350px;
-    width: 350px;
+    height: 325px;
+    width: 325px;
     background-color: #F2F2F2;
   }
 
   .square55 {
-    height: 700px;
-    width: 700px;
+    height: 655px;
+    width: 655px;
     background-color: #F2F2F2;
   }
 
@@ -516,7 +516,7 @@ html{
 
   .line2 {
     border-left: 1.5px solid black;
-    height: 140px;
+    height: 120px;
     padding-left: 15px;
     margin-top: 35px;
   }
@@ -642,7 +642,7 @@ html{
 .square33:after {
     content: "";
     bottom: 50%;
-    left: 100%;
+    left: 52%;
     display: block;
     position: relative;
     width: 0;
@@ -659,9 +659,9 @@ html{
     width: 0;
     height: 0;
     position: relative;
-    right: 91%;
+    right: 52%;
     top: 50%;
-    margin-left: 305px;
+    margin-left: 0px;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
     border-right: 15px solid #F2F2F2;
@@ -673,7 +673,7 @@ html{
     width: 0;
     height: 0;
     position: relative;
-    right: 90.8%;
+    right: 98%;
     top: 50%;
     margin-left: 621px;
     border-top: 15px solid transparent;
@@ -711,7 +711,7 @@ html{
 
 .square_1::after {
   content: "";
-  left: 100%;
+  left: 52.2%;
   display: block;
   position: relative;
   width: 0;
@@ -726,7 +726,7 @@ html{
 
 .square_2::before {
   content: "";
-  right: 100%;
+  right: 100.9%;
   display: block;
   position: relative;
   width: 0;
@@ -740,7 +740,7 @@ html{
 
 .square_3::after {
   content: "";
-  left: 100%;
+  left: 52.2%;
   display: block;
   position: relative;
   width: 0;
@@ -754,7 +754,7 @@ html{
 
 .square_4::before {
   content: "";
-  right: 100%;
+  right: 100.9%;
   display: block;
   position: relative;
   width: 0;
