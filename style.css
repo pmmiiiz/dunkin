@@ -25,7 +25,7 @@
 }
 
 @font-face {
-  font-family: 'Monospace';
+  font-family: 'Monospace-Bold';
   src: url('MonospaceBold.woff2') format('woff2'),
       url('MonospaceBold.woff') format('woff');
   font-weight: bold;
@@ -43,7 +43,7 @@
 }
 
 @font-face {
-  font-family: 'Monospace';
+  font-family: 'Monospace-Oblique';
   src: url('MonospaceOblique.woff2') format('woff2'),
       url('MonospaceOblique.woff') format('woff');
   font-weight: 500;
@@ -52,7 +52,7 @@
 }
 
 @font-face {
-  font-family: 'Gotham';
+  font-family: 'Gotham-Bold';
   src: url('Gotham-Bold.woff2') format('woff2'),
       url('Gotham-Bold.woff') format('woff');
   font-weight: bold;
@@ -61,7 +61,7 @@
 }
 
 @font-face {
-  font-family: 'Gotham';
+  font-family: 'Gotham-Book';
   src: url('Gotham-Book.woff2') format('woff2'),
       url('Gotham-Book.woff') format('woff');
   font-weight: normal;
@@ -79,7 +79,7 @@
 }
 
 @font-face {
-  font-family: 'DB Ozone X';
+  font-family: 'DB Ozone X-Bold';
   src: url('DBOzoneX-Bold.woff2') format('woff2'),
       url('DBOzoneX-Bold.woff') format('woff');
   font-weight: bold;
@@ -88,7 +88,7 @@
 }
 
 @font-face {
-  font-family: 'DB Ozone X';
+  font-family: 'DB Ozone X-Light';
   src: url('DBOzoneX-Light.woff2') format('woff2'),
       url('DBOzoneX-Light.woff') format('woff');
   font-weight: 300;
@@ -889,12 +889,23 @@ html{
   text-align: center;
 }
 
-.hr{
+hr{
   width:16px;
-  height:1px;
+  height:2px;
   margin:0 auto;
-  background-color:#fff
+  background-color:white
 }
+
+.text-vertical{
+  padding:30px 0;
+  -webkit-transform:rotate(90deg);
+  transform:rotate(90deg);
+  display:block;
+  text-align:center}
+  .dd-today .text-vertical strong,.dd-today .text-vertical span{display:block}
+  .dd-today .text-vertical strong{font-family:"Gotham-Bold";font-size:16px;font-weight:normal}
+  .dd-today .text-vertical span{font-family:"Gotham-Book";font-size:7px;letter-spacing:0.3em}
+  .dd-today .text-now{margin-top:40px}
 
 
 
@@ -929,5 +940,7 @@ text-align: center;
 .text3{
   margin-left: 28%;
 }
+
+
 
 
