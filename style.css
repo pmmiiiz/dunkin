@@ -867,20 +867,33 @@ html{
   background-color: #ee4297 ;
   text-align: center;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
 }
-.sm-btn{
+
+.w3-button{
+  margin-left: auto;
+  margin-right: auto;
   background-color: white;
-  text-align: center;
-  border-radius: 0;
-  border: 2px solid black;
-  padding: 6px 23px;
-  font-size: 12px; 
+  color: black;
+  padding: 10px 25px;
+ text-align: center;
 }
-.sm-btn a:hover{
-  background-color:#000;
-  color:#fff;
-  text-decoration: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .content {
@@ -906,7 +919,8 @@ hr{
   .dd-today .text-vertical strong{font-family:"Gotham-Bold";font-size:16px;font-weight:normal}
   .dd-today .text-vertical span{font-family:"Gotham-Book";font-size:7px;letter-spacing:0.3em}
   .dd-today .text-now{margin-top:40px}
-
+ 
+  .form-group {border-style: none;}
 
 
 /*--DDCard--*/
@@ -956,6 +970,9 @@ text-align: center;
 #GothamBook {
   font-family: 'Gotham-Book';
 }
+
+
+
 
 
 
