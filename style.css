@@ -995,6 +995,48 @@ text-align: center;
   text-decoration: none;
   color: #E04B94;
 }
+/*--Promotion--*/
+
+#MyBTN {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  background-color: #555;
+} 
+/*--ref https://www.solodev.com/blog/web-design/adding-a-load-more-button-to-your-content.stml --*/
+#loadMore {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+#loadMore a {
+  border: black solid;
+  background: #ffffff;
+  border-radius: 1px;
+  color: rgb(5, 5, 5);
+  display: inline-block;
+  padding: 10px 30px;
+  transition: all 0.25s ease-out;
+  -webkit-font-smoothing: antialiased;
+}
+#loadMore a:hover {
+  color: white;
+  background-color: #000000;
+
+}
 
 
 
