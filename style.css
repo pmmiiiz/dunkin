@@ -924,6 +924,10 @@ hr{
 
 
 /*--DDCard--*/
+
+.carousel-caption{
+  position: absolute;
+}
 .content-wrapper{
   width: 100%;
 }
@@ -955,6 +959,10 @@ text-align: center;
   margin-left: 28%;
 }
 
+#dd{
+  padding-left: 100px;
+}
+
 #DBOzoneXBd {
   font-family: 'DB Ozone X-Bold';
 }
@@ -969,6 +977,23 @@ text-align: center;
 
 #GothamBook {
   font-family: 'Gotham-Book';
+}
+
+.regis{
+  height: 40px;
+    width: 110px;
+    background-color:#E04B94;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+}
+.regis:hover {
+  height: 40px;
+  width: 110px;
+  background-color:white;
+  position: absolute;
+  text-decoration: none;
+  color: #E04B94;
 }
 
 
