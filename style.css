@@ -329,7 +329,7 @@ html{
 
   .square:after {
     content: "";
-    left: 100%;
+    left: 52%;
     display: block;
     position: relative;
     width: 0;
@@ -357,7 +357,7 @@ html{
 }
 .square3:after {
     content: "";
-    left: 100%;
+    left: 52%;
     display: block;
     position: relative;
     width: 0;
@@ -370,7 +370,7 @@ html{
   }
   .square4:after {
     content: "";
-    left: 100%;
+    left: 52%;
     display: block;
     position: relative;
     width: 0;
@@ -419,7 +419,7 @@ html{
 
   .squarep:after {
     content: "";
-    left: 100%;
+    left: 52%;
     display: block;
     position: relative;
     width: 0;
@@ -432,7 +432,7 @@ html{
   }
   .squarep2:after {
     content: "";
-    left: 100%;
+    left: 52%;
     display: block;
     position: relative;
     width: 0;
@@ -474,7 +474,7 @@ html{
 }
 .squarep5:after {
     content: "";
-    left: 100%;
+    left: 52%;
     display: block;
     position: relative;
     width: 0;
@@ -487,7 +487,7 @@ html{
   }
   .squarep6:after {
     content: "";
-    left: 100%;
+    left: 52%;
     display: block;
     position: relative;
     width: 0;
@@ -526,111 +526,6 @@ html{
     color: black;
   }
 
-  .squarep3 {
-    height: 350px;
-    width: 320px;
-    background-color:#E04B94;
-  }
-  .squarep4 {
-    height: 350px;
-    width: 320px;
-    background-color:#E04B94;
-  }
-  .squarep5 {
-    height: 350px;
-    width: 320px;
-    background-color:#E04B94;
-  }
-  .squarep6 {
-    height: 350px;
-    width: 320px;
-    background-color:#E04B94;
-  }
-  
-
-
-
-  .squarep:after {
-    content: "";
-    left: 100%;
-    display: block;
-    position: relative;
-    width: 0;
-    height: 0;
-     margin-top:-60px;
-    margin-left: 0px;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 15px solid #E04B94;
-  }
-  .squarep2:after {
-    content: "";
-    left: 100%;
-    display: block;
-    position: relative;
-    width: 0;
-    height: 0;
-     margin-top:0px;
-    margin-left: 0px;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 15px solid #E04B94;
-  }
-
-  .squarep3:before {
-    content: "";
-    right: 100%;
-    display: block;
-    width: 0;
-    height: 0;
-    margin-top:50px;
-    margin-left: 305px;
-    position: relative;
-    top: 30%;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-right: 15px solid#E04B94;
-}
-.squarep4:before {
-    content: "";
-    right: 100%;
-    display: block;
-    width: 0;
-    height: 0;
-    margin-top:50px;
-    margin-left: 305px;
-    position: relative;
-    top: 30%;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-right: 15px solid#E04B94;
-}
-.squarep5:after {
-    content: "";
-    left: 100%;
-    display: block;
-    position: relative;
-    width: 0;
-    height: 0;
-     margin-top:-80px;
-    margin-left: 0px;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 15px solid #E04B94;
-  }
-  .squarep6:after {
-    content: "";
-    left: 100%;
-    display: block;
-    position: relative;
-    width: 0;
-    height: 0;
-     margin-top:-30px;
-    margin-left: 0px;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 15px solid #E04B94;
-  }
 
   #coffee:hover{-webkit-transform:scale(1.01);transform:scale(1.01);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}
 
