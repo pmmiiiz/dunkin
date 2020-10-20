@@ -261,13 +261,15 @@ html{
 
   #pack:hover{
     background-color: #f7f7f7; 
+    transition: all 0.8s ease-out;
+  -webkit-font-smoothing: antialiased;
     
   }
 
 
 /*--Sandwiches--*/
 .vls {
-    margin-left: 50px;
+    margin-left: 0px;
     border-left: 1.5px solid black;
     height: 250px;
    
@@ -282,6 +284,8 @@ html{
 
   #sand:hover{
     background-color: #f7f7f7; 
+    transition: all 0.8s ease-out;
+  -webkit-font-smoothing: antialiased;
     
   }
 
@@ -819,6 +823,29 @@ hr{
 
 
 /*--DDCard--*/
+#regis a {
+ 
+  background: #ee4598;;
+  border-radius: 1px;
+  color: rgb(5, 5, 5);
+  display: inline-block;
+  padding: 8px 20px;
+  transition: all 0.25s ease-out;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 500px;
+  text-decoration: none;
+  position: absolute;
+  
+
+}
+#regis a:hover {
+ 
+  color: #ee4598;
+  background-color: white;
+  text-decoration: none;
+  position: absolute
+
+}
 
 .carousel-caption{
   position: absolute;
@@ -874,22 +901,7 @@ text-align: center;
   font-family: 'Gotham-Book';
 }
 
-.regis{
-  height: 40px;
-    width: 110px;
-    background-color:#E04B94;
-    position: absolute;
-    text-decoration: none;
-    color: black;
-}
-.regis:hover {
-  height: 40px;
-  width: 110px;
-  background-color:white;
-  position: absolute;
-  text-decoration: none;
-  color: #E04B94;
-}
+
 /*--Promotion--*/
 
 #MyBTN {
