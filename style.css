@@ -135,11 +135,13 @@ html{
 .dd-navlink a.is-active, .dd-navlink a:hover , .dd-link{
     color: #f77b00;
     text-decoration: none;
+    font-family: 'Gotham-Bold';
 }
 
 .dd-navlink.is-sub a.is-active, .dd-navlink.is-sub a:hover{
     color: white;
     text-decoration: none;
+    font-family: 'Gotham-Bold';
 }
 
 .dd-navlink a {
@@ -514,13 +516,13 @@ html{
   .line1 {
     margin-left: 50px;
     border-left: 1.5px solid black;
-    height: 105px;
+    height: 125px;
     padding-left: 15px;
   }
 
   .line2 {
     border-left: 1.5px solid black;
-    height: 120px;
+    height: 130px;
     padding-left: 15px;
     margin-top: 35px;
   }
