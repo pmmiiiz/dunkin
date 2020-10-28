@@ -227,6 +227,11 @@ html{
     text-align: center;
 }
 
+#other{
+  display: flex;
+  text-align: center;
+}
+
 .row{
     box-sizing: border-box;
     display: inline-block;
