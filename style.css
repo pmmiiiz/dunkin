@@ -121,7 +121,7 @@ html{
     background-color: #391f01;
     margin: 0px;
     overflow: hidden;
-    padding: 10px;
+    padding: 8px;
 }
 
 .dd-nav .dd-navlink .dd-container{
@@ -145,7 +145,7 @@ html{
 }
 
 .dd-navlink a {
-    padding-right: 30px;
+    padding-right: 40px;
     display: block;
     font-size: 17px;
     color: #fff;
@@ -153,8 +153,8 @@ html{
 
 .dd-navbarsocial {
     position: absolute;
-    right: 0;
-    bottom: 80px;
+    right: 7%;
+    bottom: 62px;
 }
 
 .dd-link{
@@ -162,12 +162,13 @@ html{
 }
 
 .dd-nav .dd-link a {
-    font-size: 18px;
-    display: block;
-    padding: 0 15px;
-    color: #663701;
-    text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding: 0 15px;
+  color: #663701;
+  font-family: "GothamBold";
 }
+
 
 .dd-link a:hover{
     color: #f77b00;
@@ -189,15 +190,17 @@ html{
 
 .dd-social {
     display: flex;
-}
-
-.dd-social {
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     align-items: center;
+    margin-left: 55px;
+    
+    
 }
 
 .dd-social a {
-    padding: 18px;
+    padding: 5.1px;
+    
+   
 }
 
 .footer {
@@ -225,6 +228,11 @@ html{
 #donuts{
     display: flex;
     text-align: center;
+}
+
+#other{
+  display: flex;
+  text-align: center;
 }
 
 .row{
