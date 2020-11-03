@@ -842,7 +842,7 @@ hr{
   padding: 8px 20px;
   transition: all 0.25s ease-out;
   -webkit-font-smoothing: antialiased;
-  margin-left: 500px;
+  margin-left: 525px;
   text-decoration: none;
   position: absolute;
   
@@ -1002,6 +1002,9 @@ text-align: center;
     margin-left: 0;
   }
 }
+
+
+
 
 
 
