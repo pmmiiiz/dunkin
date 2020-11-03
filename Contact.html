@@ -9,98 +9,103 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+    <script src="./script.js"></script>
 </head>
-<body>
-    <div class="global-container sticky-top" style="background-color: white;" >
-        <header>
-          <nav class="dd-nav">
-            <div class="dd-container">
-              <div class="dd-navbar">
-                <a href="index.html" class="logo">
-                  <img src="img/header/logo.png">
-                </a>
-              </div>
-            </div>
-        
-            <div class="dd-navlist">
-              <div class="dd-navlink">
-                  <div class="dd-container" style="padding: 0 60px;">
-                      <div>
-                          <a style="font-size: 14px;" id="GothamBold" href="index.html">HOME </a>
-                      </div>
-                      <div>
-                          <a style="font-size: 14px;" id="GothamBold" href="coffee.html">COFFEE & MORE </a>
-                      </div>
-                      <div>
-                          <a style="font-size: 14px;" id="GothamBold" class="is-active" href="DDCard.html">DD CARD</a>
-                      </div>
-                      <div>
-                          <a style="font-size: 14px;" id="GothamBold" href="Snack.html">SNACK BOX</a>
-                      </div>
-                      <div>
-                          <a style="font-size: 14px;" id="GothamBold" href="promotion.html">PROMOTION</a>
-                      </div>
-                  </div>
-              </div>
-              <div class="dd-navlink is-sub">
-                  <div class="dd-container" style="padding: 0 60px;">
-                      <div>
-                          <a style="font-size: 14px;" id="GothamBook" href="donut.html">DONUTS & MUNCHKINS</a>
-                      </div>
-                      <div>
-                          <a style="font-size: 14px;" id="GothamBook" href="coffee.html">COFFEE MENU</a>
-                      </div>
-                      <div>
-                          <a style="font-size: 14px;" id="GothamBook" href="Sandwiches.html">SANDWICHES</a>
-                      </div>
-                      <div>
-                          <a style="font-size: 14px;" id="GothamBook" href="Everyday.html">EVERYDAY PACK</a>
-                      </div>
-                      <div>
-                          <a style="font-size: 14px;"  id="GothamBook" href="Other.html">OTHER BEVERAGE</a>
-                      </div>
-                  </div>
-              </div>
-  
-              <!-- <div class="dd-container"> -->
-                <div class="dd-navbarsocial">
+</style>
 
-                    <ul class="dd-social" >
-                      <li>
-                        <a href="https://www.facebook.com/Dunkinthai" target="_blank" rel="noopener">
-                          <img src="img/header/icon-fb.svg" alt="facebook" width="32px">
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/dunkinthai/?hl=th" target="_blank" rel="noopener">
-                          <img src="img/header/icon-instagram.svg" alt="instagram" width="32px">
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://timeline.line.me/user/_dfyRs2xE1F97v608mWcunldzkz5RKjAd8VDr1JA" target="_blank" rel="noopener">
-                          <img src="img/header/icon-line.svg" alt="line" width="32px">
-                        </a>
-                      </li>
-                    </ul>
-                      <ul class="dd-link" style="font-weight: 200px;">
-                        <li><a style="font-size: 14px;" id="GothamBold" href="About.html">ABOUT US</a></li>
-                        <li><h6 style="color: #663701; font-size: 14px;" id="GothamBold">|</h6></li>
-                        <li><a style="font-size: 14px;" id="GothamBold" href="Contact.html">CONTACT US</a></li>
-                      </ul>
-                </div>
-            <!-- </div> -->
-  
+
+<body>
+    <div class="global-container sticky-top" style="background-color: white;">
+        <div id="loader-bg">
+            <img src="img/header/logo.png "  id="loader-bg-1">
           </div>
-          </nav>
-        </header>
+        <header>
+        <nav class="dd-nav">
+          <div class="dd-container">
+            <div class="dd-navbar">
+              <a href="index.html" class="logo">
+                <img src="img/header/logo.png">
+              </a>
+            </div>
+          </div>
+      
+          <div class="dd-navlist">
+            <div class="dd-navlink">
+                <div class="dd-container" style="padding: 0 60px;">
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBold" href="index.html">HOME </a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBold" href="coffee.html">COFFEE & MORE </a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBold" href="DDCard.html">DD CARD</a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBold" href="Snack.html">SNACK BOX</a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBold" href="promotion.html">PROMOTION</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dd-navlink is-sub">
+                <div class="dd-container" style="padding: 0 60px;">
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBook" href="donut.html">DONUTS & MUNCHKINS</a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBook" href="coffee.html">COFFEE MENU</a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBook" href="Sandwiches.html">SANDWICHES</a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBook" href="Everyday.html">EVERYDAY PACK</a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;"  id="GothamBook" href="Other.html">OTHER BEVERAGE</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="dd-container"> -->
+              <div class="dd-navbarsocial">
+
+                <ul class="dd-social" >
+                  <li>
+                    <a href="https://www.facebook.com/Dunkinthai" target="_blank" rel="noopener">
+                      <img src="img/header/icon-fb.svg" alt="facebook" width="32px">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/dunkinthai/?hl=th" target="_blank" rel="noopener">
+                      <img src="img/header/icon-instagram.svg" alt="instagram" width="32px">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://timeline.line.me/user/_dfyRs2xE1F97v608mWcunldzkz5RKjAd8VDr1JA" target="_blank" rel="noopener">
+                      <img src="img/header/icon-line.svg" alt="line" width="32px">
+                    </a>
+                  </li>
+                </ul>
+                  <ul class="dd-link" style="font-weight: 200px;">
+                    <li><a style="font-size: 14px;" id="GothamBold" href="About.html">ABOUT US</a></li>
+                    <li><h6 style="color: #663701; font-size: 14px;" id="GothamBold">|</h6></li>
+                    <li><a style="font-size: 14px;"  id="GothamBold"    href="Contact.html">CONTACT US</a></li>
+                  </ul>
+            </div>
+        <!-- </div> -->
+
         </div>
+        </nav>
+      </header>
+      </div>
 
     <div class="global-container">
         <div style="margin: 120px; margin-top: 60px;">
