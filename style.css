@@ -1004,11 +1004,30 @@ text-align: center;
 }
 
 
+.card{
+  object-fit: cover;
+  overflow: hidden;
+  backface-visibility: hidden;
+  border-style: none!important;
+  border-radius: 0!important;
+}
+.card:hover{
+  box-shadow: 0 0px 80px  rgba(0,0,0,0.2);
+  transition: box-shadow .3s ease;
+  -webkit-font-smoothing: antialiased;
+}
 
+.card-img-top{
+  backface-visibility: hidden;
+  overflow: hidden;
+  object-fit: cover;
+  transform: scale(1);
+  transition: transform .3s ease, -webkit-transform .3s ease;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 0!important;
+  
+}
 
-
-
-
-
+.card-img-top:hover{-webkit-transform:scale(1.05);transform:scale(1.05);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}
 
 
