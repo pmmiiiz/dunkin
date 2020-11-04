@@ -534,7 +534,7 @@ html{
   .line1 {
     margin-left: 50px;
     border-left: 1.5px solid #000;
-    height: 125px;
+    height: 100px;
     padding-left: 15px;
   }
 
@@ -675,7 +675,7 @@ html{
 
 .square_2::before {
   content: "";
-  right: 100.9%;
+  right: 99.7%;
   display: block;
   position: relative;
   width: 0;
@@ -689,7 +689,7 @@ html{
 
 .square_3::after {
   content: "";
-  left: 52.2%;
+  left: 52.5%;
   display: block;
   position: relative;
   width: 0;
@@ -703,7 +703,7 @@ html{
 
 .square_4::before {
   content: "";
-  right: 100.9%;
+  right: 99.7%;
   display: block;
   position: relative;
   width: 0;
