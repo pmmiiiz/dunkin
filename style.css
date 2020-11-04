@@ -303,43 +303,53 @@ html{
 
 /*--Coffee--*/
   .square {
-    height: 350px;
-    width: 320px;
+    height: 330px;
+    width: 330px;
     background-color:#773722;
   }
   .square2 {
-    height: 350px;
-    width: 320px;
+    height: 330px;
+    width: 330px;
     background-color:#773722;
   } 
   .square3 {
-    height: 350px;
-    width: 320px;
+    height: 330px;
+    width: 330px;
     background-color:#773722;
   }
    .square4 {
-    height: 350px;
-    width: 320px;
+    height: 330px;
+    width: 330px;
     background-color:#773722;
   }
 
   .square33 {
-    height: 325px;
-    width: 325px;
+    height: 330px;
+    width: 330px;
     background-color: #F2F2F2;
   }
   .square44 {
-    height: 325px;
-    width: 325px;
+    height: 330px;
+    width: 330px;
     background-color: #F2F2F2;
   }
 
   .square55 {
-    height: 655px;
-    width: 655px;
-    background-color: #F2F2F2;
+    height: 662px;
+    width: 662px;
+    background-color:#e2e2e2;
   }
 
+  .square333 {
+    height: 330px;
+    width: 330px;
+    background-color: #e2e2e2;
+  }
+  .square444 {
+    height: 330px;
+    width: 330px;
+    background-color: #e2e2e2;
+  }
 
   .square:after {
     content: "";
@@ -362,7 +372,7 @@ html{
     width: 0;
     height: 0;
     margin-top:50px;
-    margin-left: 305px;
+    margin-left: 315px;
     position: relative;
     top: 30%;
     border-top: 15px solid transparent;
@@ -397,34 +407,34 @@ html{
   }
 
 .squarep {
-    height: 350px;
-    width: 320px;
+    height: 330px;
+    width: 330px;
     background-color:#E04B94;
   }
   .squarep2 {
-    height: 350px;
-    width: 320px;
+    height: 330px;
+    width: 330px;
     background-color:#E04B94;
   }
 
   .squarep3 {
-    height: 350px;
-    width: 320px;
+    height: 330px;
+    width: 330px;
     background-color:#E04B94;
   }
   .squarep4 {
-    height: 350px;
-    width: 320px;
+    height: 330px;
+    width: 330px;
     background-color:#E04B94;
   }
   .squarep5 {
-    height: 350px;
-    width: 320px;
+    height: 330px;
+    width: 330px;
     background-color:#E04B94;
   }
   .squarep6 {
-    height: 350px;
-    width: 320px;
+    height: 330px;
+    width: 330px;
     background-color:#E04B94;
   }
   
@@ -465,7 +475,7 @@ html{
     width: 0;
     height: 0;
     margin-top:50px;
-    margin-left: 305px;
+    margin-left: 315px;
     position: relative;
     top: 30%;
     border-top: 15px solid transparent;
@@ -479,7 +489,7 @@ html{
     width: 0;
     height: 0;
     margin-top:50px;
-    margin-left: 305px;
+    margin-left: 315px;
     position: relative;
     top: 30%;
     border-top: 15px solid transparent;
@@ -541,7 +551,7 @@ html{
   }
 
 
-  #coffee:hover{-webkit-transform:scale(1.01);transform:scale(1.01);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}
+  
 
 
 
@@ -569,11 +579,41 @@ html{
     height: 0;
     position: relative;
     right: 52%;
-    top: 50%;
+    top: 30%;
+    margin-top:0px;
     margin-left: 0px;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
     border-right: 15px solid #F2F2F2;
+}
+
+.square333:after {
+  content: "";
+  bottom: 50%;
+  left: 52%;
+  display: block;
+  position: relative;
+  width: 0;
+  height: 0;
+  margin-top:0px;
+  margin-left: 0px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #e2e2e2;
+}
+.square444:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  position: relative;
+  right: 52%;
+  top: 30%;
+  margin-top:0px;
+  margin-left: 0px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid#e2e2e2;
 }
 
 .square55:before {
@@ -587,33 +627,33 @@ html{
     margin-left: 621px;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid #F2F2F2;
+    border-right: 15px solid #e2e2e2;
 }
 
 .square_1 {
   height: 333.51px;
-  width: 325px;
+  width: 330px;
   background-color:#f58220;
   
 }
 
 .square_2 {
   height: 333.51px;
-  width: 325px;
+  width: 330px;
   background-color:#f58220;
   
 }
 
 .square_3 {
   height: 333.51px;
-  width: 325px;
+  width: 330px;
   background-color:#773722;
   
 }
 
 .square_4 {
   height: 333.51px;
-  width: 325px;
+  width: 330px;
   background-color:#773722;
   
 }
@@ -683,7 +723,7 @@ html{
   transition:transform .5s ease, -webkit-transform .5s ease}
 
 .dd-img {
-  width: 325px;
+  width: 330px;
   text-align: center;
 }
 /* about */
@@ -753,9 +793,10 @@ html{
 .barpink{
   list-style-type: none;
   margin: 0;
+  margin-left: -65px;
   padding: 0;
   height: 2180px;
-  width: 260px;
+  width: 270px;
   background-color: #ff03a9;
   float: right;
   position: absolute;
@@ -842,7 +883,7 @@ hr{
   padding: 8px 20px;
   transition: all 0.25s ease-out;
   -webkit-font-smoothing: antialiased;
-  margin-left: 525px;
+  margin-left: 550px;
   text-decoration: none;
   position: absolute;
   
