@@ -729,76 +729,132 @@ html{
 /* about */
 .zen1946 {
   margin-top: -15px;
-  margin-left: 20px;
+  margin-left: -5px;
   border-left: 1.5px solid black;
   height: 150px;
 
 }
 .zen1950 {
   margin-top: -15px;
-  margin-left: 20px;
+  margin-left: -5px;
   border-left: 1.5px solid black;
   height: 120px;
 
 }
 .zenQSR {
   margin-top: -20px;
-  margin-left: 20px;
+  margin-left: -5px;
   border-left: 1.5px solid black;
   height: 220px;
 
 }
 .zen1981 {
   margin-top: -15px;
-  margin-left: 20px;
+  margin-left: -5px;
   border-left: 1.5px solid black;
   height: 200px;
 
 }
 .zen2016 {
   margin-top: -15px;
-  margin-left: 20px;
+  margin-left: -5px;
   border-left: 1.5px solid black;
   height: 270px;
 
 }
 .zenCSR{
   margin-top: -15px;
-  margin-left: 20px;
+  margin-left: -5px;
   border-left: 1.5px solid black;
   height: 300px;
 
 }
 .zen1989{
   margin-top: -15px;
-  margin-left: 20px;
+  margin-left: 32px;
   border-left: 1.5px solid black;
-  height: 80px;
+  height: 75px;
+}
+.zen1997{
+    margin-top: -15px;
+    margin-left: 1px;
+    border-left: 1.5px solid black;
+    height: 75px;
 
+}
+.zen2000{
+  margin-top: -15px;
+  margin-left: 1px;
+  border-left: 1.5px solid black;
+  height: 75px;
+
+}
+.zen2005{
+  margin-top: -15px;
+  margin-left: -10px;
+  border-left: 1.5px solid black;
+  height: 75px;
+
+}
+.zen2008{
+  margin-top: -15px;
+  margin-left: -35px;
+  border-left: 1.5px solid black;
+  height: 75px;
+
+}
+.zen2009{
+  margin-top: -15px;
+  margin-left: -35px;
+  border-left: 1.5px solid black;
+  height: 75px;
 }
 .zen2010{
   margin-top: -15px;
-  margin-left: 20px;
+  margin-left: -5px;
   border-left: 1.5px solid black;
-  height: 130px;
+  height: 250px;
 
 }
+
 .zen2011{
   margin-top: -15px;
-  margin-left: 20px;
+  margin-left: -5px;
   border-left: 1.5px solid black;
-  height: 180px;
+  height: 250px;
+
+}
+.zen2012{
+  margin-top: -15px;
+  margin-left: -60px;
+  border-left: 1.5px solid black;
+  height: 100px;
+
+}
+.zen2013{
+  margin-top: -15px;
+  margin-left: 15px;
+  border-left: 1.5px solid black;
+  height: 75px;
+
+}
+
+.zen2014{
+  margin-top: -15px;
+  margin-left: 10px;
+  border-left: 1.5px solid black;
+  height: 75px;
 
 }
 .barpink{
   list-style-type: none;
   margin: 0;
-  margin-left: -65px;
+  margin-top: -140px;
+  margin-left: 1100px;
   padding: 0;
   height: 2180px;
   width: 270px;
   background-color: #ff03a9;
-  float: right;
   position: absolute;
 }
 .barpink a{
