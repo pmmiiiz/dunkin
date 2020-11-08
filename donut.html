@@ -1,80 +1,648 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="http://shorebranding.com/wp-content/uploads/2015/05/Dunkin-Logo.jpg">
     <title>Dunkin'Thailand | ดังกิ้น ประเทศไทย'</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="./script.js"></script>
-  </head>
+</head>
+
 <body>
-    <div class="global-container sticky-top" style="background-color:#ffff;" >
-      <div id="loader-bg">
-        <img src="img/header/logo.png "  id="loader-bg-1">
-      </div>
-      <header>
-        <nav class="dd-nav">
-          <div class="dd-container">
-            <div class="dd-navbar">
-              <a href="index.html" class="logo">
-                <img src="img/header/logo.png">
-              </a>
-            </div>
-          </div>
-      
-          <div class="dd-navlist">
-            <div class="dd-navlink">
-                <div class="dd-container" style="padding: 0 60px;">
-                    <div>
-                        <a style="font-size: 14px;" id="GothamBold" href="index.html">HOME </a>
+    <div class="global-container sticky-top" style="background-color:#ffff;">
+        <div id="loader-bg">
+            <img src="img/header/logo.png " id="loader-bg-1">
+        </div>
+        <header>
+            <nav class="dd-nav">
+                <div class="dd-container">
+                    <div class="dd-navbar">
+                        <a href="index.html" class="logo">
+                            <img src="img/header/logo.png">
+                        </a>
                     </div>
-                    <div>
-                        <a style="font-size: 14px;" href="coffee.html" class="is-active">COFFEE & MORE </a>
-                    </div>
-                    <div>
-                        <a style="font-size: 14px;" id="GothamBold" href="DDCard.html">DD CARD</a>
-                    </div>
-                    <div>
-                        <a style="font-size: 14px;" id="GothamBold" href="Snack.html">SNACK BOX</a>
-                    </div>
-                    <div>
-                        <a style="font-size: 14px;" id="GothamBold" href="promotion.html">PROMOTION</a>
-                    </div>
-                    <div>
-                      <a style="font-size: 14px;" id="GothamBold" href="">STORE LOCATIONS</a>
-                  </div>
-                  <div>
-                    <a style="font-size: 14px;" id="GothamBold" href="">JOBS  </a>
                 </div>
+
+                <div class="dd-navlist">
+                    <div class="dd-navlink">
+                        <div class="dd-container" style="padding: 0 60px;">
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBold" href="index.html">HOME </a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" href="coffee.html" class="is-active">COFFEE & MORE </a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBold" href="DDCard.html">DD CARD</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBold" href="Snack.html">SNACK BOX</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBold" href="promotion.html">PROMOTION</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBold" href="">STORE LOCATIONS</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBold" href="">JOBS </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dd-navlink is-sub">
+                        <div class="dd-container" style="padding: 0 60px;">
+                            <div>
+                                <a style="font-size: 14px;" href="donut.html" class="is-active">DONUTS & MUNCHKINS</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBook" href="coffee.html">COFFEE MENU</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBook" href="Sandwiches.html">SANDWICHES</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBook" href="Everyday.html">EVERYDAY PACK</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBook" href="Other.html">OTHER BEVERAGE</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="dd-container"> -->
+                    <div class="dd-navbarsocial">
+
+                        <ul class="dd-social">
+                            <li>
+                                <a href="https://www.facebook.com/Dunkinthai" target="_blank" rel="noopener">
+                                    <img src="img/header/icon-fb.svg" alt="facebook" width="32px">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/dunkinthai/?hl=th" target="_blank" rel="noopener">
+                                    <img src="img/header/icon-instagram.svg" alt="instagram" width="32px">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://timeline.line.me/user/_dfyRs2xE1F97v608mWcunldzkz5RKjAd8VDr1JA"
+                                    target="_blank" rel="noopener">
+                                    <img src="img/header/icon-line.svg" alt="line" width="32px">
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="dd-link" style="font-weight: 200px;">
+                            <li><a style="font-size: 14px;" id="GothamBold" href="About.html">ABOUT US</a></li>
+                            <li>
+                                <h6 style="color: #663701; font-size: 14px;" id="GothamBold">|</h6>
+                            </li>
+                            <li><a style="font-size: 14px;" id="GothamBold" href="Contact.html">CONTACT US</a></li>
+                        </ul>
+                    </div>
+                    <!-- </div> -->
+
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <section>
+        <img class="mySlides" src="img/slide/donut.jpg" style="width:100%">
+    </section>
+
+
+    <div class="global-container " style="font-family: 'Mitr', sans-serif; font-size: 22px;">
+        <div id="donuts" class="dd-section">
+            <div id="donutja">
+                <div class="row">
+                    <div class="col-12" style="line-height: 1; text-align: center;">
+                        <h2 style="text-align: center; margin-bottom: 20px; font-size: 44px;" id="DBOzoneXBd">
+                            <b>โดนัท</b>
+                        </h2>
+                        <p style="text-align: center; margin-bottom: 40px; font-size: 24px;" id="DBOzoneX">
+                            สัมผัสความอร่อยกับโดนัทเนื้อยีสต์กับหลากหลายรสชาติที่สรรค์สร้างขึ้น<br />เป็นเอกลักษณ์เฉพาะตัว
+                            ให้คุณได้ลิ้มลองแล้ววันนี้</p>
+                    </div>
+                </div>
+
+                <div class="global-container m-5 mt-0">
+                    <center>
+                        <div id="alldonut" style="display: flex; flex-wrap: wrap; width: 100%; max-width: 1380px; 
+                margin: 0 40;  position: relative;">
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/1.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd"><b>เกลซด์</b>
+                                </h4>
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์
+                                    เคลือบด้วยน้ำตาลเกลซด์สูตรพิเศษเฉพาะดังกิ้น โดนัท</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/2.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd"><b>ชูการ์</b>
+                                </h4>
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์
+                                    เคลือบด้วยน้ำตาลสูตรพิเศษเฉพาะดังกิ้น
+                                    โดนัท</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/3.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd"><b>ทวิสต์</b>
+                                </h4>
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์ รูปทรงเกลียว
+                                    เคลือบด้วยนำ้ตาลเกลซด์สูตรพิเศษเฉพาะดังกิ้น โดนัท</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/4.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd">
+                                    <b>สตรอเบอร์รี่<br>ฟลาวเวอร์</b></h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์เคลือบ
+                                    <br>สตรอเบอร์รี่ฟรอสต์ ที่มีผลไม้ผสมอยู่ วาดเส้นดอกไม้ ด้วย
+                                    วานิลลาฟรอสต์</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/5.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd">
+                                    <b>ช็อคโกแลต<br>ฟลาวเวอร์</b></h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์เคลือบด้วย
+                                    ช็อคโกแลตฟรอสต์
+                                    วาดเส้นดอกไม้ด้วย
+                                    วานิลลาฟรอสต์</p>
+                            </div>
+                            <div style="text-align: center; " id="donut">
+                                <img src="img/donut/6.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd">
+                                    <b>ช็อคโกแลต<br>บัตเตอร์นัท</b></h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อเค้กช็อคโกแลต เคลือบด้วยน้าตาลเกลซด์
+                                    คลุกเคล้าด้วยถั่วลิสงสูตรพิเศษทั้งชิ้น มีรสชาติ หอมหวานมัน พร้อมกลิ่นหอมของถั่ว</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/7.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd">
+                                    <b>ช็อคโกแลต<br>โคโคนัท</b></h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อเค้กช็อคโกแลต เคลือบด้วยน้าตาลเกลซด์
+                                    คลุกเคล้าเนื้อมะพร้าว หอมกลิ่นมะพร้าว</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/8.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd"><b>สมายล์</b>
+                                </h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัท เนื้อยีสต์ เคลือบด้วยบัตเตอร์ครีม
+                                    โรยด้วยมะพร้าวตกแต่งหน้าด้วยแยมสตรอเบอร์รี่และบลูเบอร์รี่พร้อมสอดไส้สตรอเบอร์รี่</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/9.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd"><b>บอสตัน
+                                        ครีม</b>
+                                </h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์ เคลือบด้วยฟรอสต์ช็อคโกแลต
+                                    พร้อมสอดไส้บาวาเรี่ยน หอมหวานลงตัว เอกลักษณ์เฉพาะดังกิ้น โดนัท</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/10.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd">
+                                    <b>สตรอเบอร์รี่<br>รอเยล</b></h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์ ตกแต่งด้วยบัตเตอร์ครีม
+                                    โรยด้วยมะพร้าวพร้อมหยอดแยมสตรอเบอร์รี่</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/11.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd">
+                                    <b>บลูเบอร์รี่รอเยล</b></h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์ ตกแต่งด้วยบัตเตอร์ครีม
+                                    โรยด้วยมะพร้าวพร้อมหยอดแยมบลูเบอร์รี่</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/12.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd">
+                                    <b>สตรอเบอร์รี่ทาร์ท</b></h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์ เคลือบด้วยบัตเตอร์ครีม
+                                    วาดเส้นด้วยแยมบลูเบอร์รี่ โรยด้วยมะพร้าว ตรงกลางหยอดด้วยแยมสตรอเบอร์รี่</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/13.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd"><b>แคนดี้</b>
+                                </h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์ แต่งหน้าด้วยบัตเตอร์ครีม
+                                    พร้อมหยอดแยมสตรอเบอร์รี่และบลูเบอร์รี่โรยด้วยมะพร้าว รสชาติหวานมันอมเปรี้ยว</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/14.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd">
+                                    <b>บาวาเรี่ยน</b>
+                                </h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์ คลุกเคล้าด้วยน้าตาลไอซี่ง
+                                    สอดไส้บาวาเรี่ยนครีม รสชาติหอมหวานมัน กลิ่นวานิลลา</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/15.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd">
+                                    <b>สตรอเบอร์รี่</b>
+                                </h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์ คลุกเคล้าด้วยน้าตาลไอซิ่ง
+                                    สอดไส้แยมสตรอเบอร์รี่ หอมหวานซ้อนเปรี้ยว</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/16.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd">
+                                    <b>บลูเบอร์รี่</b>
+                                </h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์ คลุกเคล้าด้วยน้าตาลไอซิ่ง
+                                    สอดไส้หอมหวานซ้อนเปรี้ยว ด้วยแยมบลูเบอร์รี่</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/17.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd">
+                                    <b>โคโคนัทบาวาเรี่ยน</b></h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์ เคลือบด้วยบัตเตอร์ครีม
+                                    โรยด้วยมะพร้าว
+                                    พร้อมสอดไส้บาวาเรี่ยน หอมกลิ่นมะพร้าว และวานิลลา เพิ่มความหอมมันยิ่งขึ้น</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/18.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd">
+                                    <b>เบอร์รี่อาร์ท</b>
+                                </h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์
+                                    เคลือบด้วยช็อคโกแลตรสสตรอเบอร์รี่เบิ้ลเส้นด้วยช็อคโกแลต</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/19.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd">
+                                    <b>ช็อคโกอาร์ท</b>
+                                </h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์ เคลือบด้วยไวท์ช็อคโกแลต
+                                    เบิ้ลเส้นด้วยช็อคโกแลต</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/20.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd">
+                                    <b>ช็อคโกสแน็ป</b>
+                                </h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์ เคลือบด้วยช็อคโกแลต
+                                    เบิ้ลเส้นด้วยไวท์ช็อคโกแลต</p>
+                            </div>
+                            <div style="text-align: center;" id="donut">
+                                <img src="img/donut/21.jpg" alt="" width="100%" style="cursor: pointer">
+                                <h4 class="title" style="font-size: 28px; cursor: pointer" id="DBOzoneXBd">
+                                    <b>ทวินฟลาวเวอร์</b>
+                                </h4>
+
+                                <p style="font-size: 19px;" id="DBOzoneX">โดนัทเนื้อยีสต์
+                                    เคลือบด้วยช็อคโกแลตรสสตรอเบอร์รี่
+                                    เบิ้ลเส้นด้วยช็อคโกแลต และไวท์ช็อคโกแลต</p>
+                            </div>
+                        </div>
+                    </center>
                 </div>
             </div>
-            <div class="dd-navlink is-sub">
-                <div class="dd-container"  style="padding: 0 60px;">
+            <div id="darkcoco" style="margin-top: 200px;">
+                <div class="row">
+                    <div class="col-12" style="line-height: 1; text-align: center;">
+                        <h2 style="text-align: center; margin-bottom: 20px; font-size: 44px;" id="DBOzoneXBd">
+                            <b>โดนัทดาร์กโกโก้</b>
+                        </h2>
+                        <p style="text-align: center; margin-bottom: 40px; font-size: 24px;" id="DBOzoneX">
+                            หลากหลากสไตล์ความอร่อยกับ โดนัทดาร์ก โกโก้<br>
+                            ส่วนผสมที่ลงตัว กับช็อคโกแลตเข้มข้น ที่คุณต้องลอง
+                        </p>
+                    </div>
+                </div>
+                <div class="global-container m-4 mt-0">
+                    <center>
+                        <div id="darkcoco"
+                            style="display: flex; flex-wrap: wrap; width: 100%; max-width: 1200px; margin: auto; position: relative;">
+                            <div class="row">
+                                <div class="square33" style=" padding-top: 100px; line-height: 1;"
+                                    style=" padding-top: 100px; line-height: 1;">
+                                    <b style="font-size: 28px; cursor: pointer;" id="DBOzoneXBd" class="title">ทูโทน</b>
+                                    <p style="color: black;  padding: 20px; text-align: left; font-size: 19px;"
+                                        id="DBOzoneX">
+                                        โดนัทดาร์กโกโก้ เคลือบด้วยช็อคโกแลตเข้มข้น
+                                        ตกแต่งด้วยช็อคโกแลตและไวท์ช็อคโกแลตขูดม้วน<br><br><br></p>
+                                </div>
+                                <div style="width: 300px;">
+                                    <center><img src="img/donut/22.jpg" alt="" width="75%" style="cursor: pointer;"
+                                            id="donutss">
+                                    </center>
+                                </div>
+
+                                <div style="width: 300px;">
+                                    <center><img src="img/donut/23.jpg" alt="" width="75%" style="cursor: pointer;"
+                                            id="donutss">
+                                    </center>
+                                </div>
+                                <div class="square44" style=" padding-top: 70px; line-height: 1;"
+                                    style=" padding-top: 100px; line-height: 1;">
+                                    <b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd" class="title">คุกกี้
+                                        ครั้นช์</b>
+                                    <p style="color: black; padding: 20px; text-align: left; font-size: 19px;"
+                                        id="DBOzoneX">
+                                        โดนัทดาร์กโกโก้ เคลือบด้วยบัตเตอร์ครีม
+                                        โรยด้วยผงคุกกี้ช็อคเบิ้ลเส้นด้วยไวท์ช็อคโกแลต<br><br><br></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div style="width: 300px;">
+                                    <center><img src="img/donut/24.jpg" alt="" width="75%" style="cursor: pointer;"
+                                            id="donutss">
+                                    </center>
+                                </div>
+                                <div class="square44" style=" padding-top: 70px; line-height: 1;">
+                                    <b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd" class="title">คุกกี้
+                                        แอนด์
+                                        ครีม</b>
+                                    <p style="color: black; padding: 20px; text-align: left; font-size: 19px;"
+                                        id="DBOzoneX">
+                                        โดนัทดาร์กโกโก้ เคลือบด้วยไวท์ช็อคโกแลต เบิ้ลเส้นด้วยช็อคโกแลต
+                                        ตกแต่งด้วยบัตเตอร์ครีมและท็อปคุกกี้ช็อคโกแลต<br><br><br></p>
+                                </div>
+                                <div class="square33" style=" padding-top: 100px; line-height: 1;">
+                                    <b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd"
+                                        class="title">บาวาเรี่ยนเรย์</b>
+                                    <p style="color: black; padding: 20px;  text-align: left; font-size: 19px;"
+                                        id="DBOzoneX">
+                                        โดนัทดาร์กโกโก้ เคลือบช็อคโกแลตเข้มข้น วาดเส้นด้วยไวท์ช็อคโกแลต เป็นใยแมงมุม
+                                        พร้อมสอดไส้บาวาเรี่ยน<br><br><br></p>
+                                </div>
+
+                                <div style="width: 300px;">
+                                    <center><img src="img/donut/25.jpg" alt="" width="75%" style="cursor: pointer;"
+                                            id="donutss">
+                                    </center>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="square33" style=" padding-top: 100px; line-height: 1;">
+                                    <b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd"
+                                        class="title">ลัคกี้เบอร์รี่</b>
+                                    <p style="color: black; padding: 20px;  text-align: left; font-size: 19px;"
+                                        id="DBOzoneX">
+                                        โดนัทดาร์กโกโก้ เคลือบด้วยไวท์ช็อคโกแลต เบิ้ลเส้นด้วยช็อคโกแลต
+                                        หยอดด้วยแยมสตรอเบอร์รี่<br><br><br></p>
+                                </div>
+
+                                <div style="width: 300px;">
+                                    <center><img src="img/donut/26.jpg" alt="" width="75%" style="cursor: pointer;"
+                                            id="donutss"></center>
+                                </div>
+
+                                <div style="width: 300px;">
+                                    <center><img src="img/donut/27.jpg" alt="" width="75%" style="cursor: pointer;"
+                                            id="donutss"></center>
+                                </div>
+                                <div class="square44" style=" padding-top: 70px; line-height: 1;">
+                                    <b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd"
+                                        class="title">ลัคกี้ครีม</b>
+                                    <p style="color: black; padding: 20px;  text-align: left; font-size: 19px;"
+                                        id="DBOzoneX">
+                                        โดนัทดาร์กโกโก้ เคลือบด้วยช็อคโกแลตเข้มข้น เบิ้ลเส้นด้วยไวท์ช็อคโกแลต
+                                        หยอดด้วยครีมบาวาเรี่ยน<br><br><br></p>
+                                </div>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <div id="mojiring" style="margin-top: 180px;">
+                <div class="row">
+                    <div class="col-12" style="line-height: 1; text-align: center;">
+                        <h2 style="text-align: center; margin-bottom: 20px; font-size: 44px;" id="DBOzoneXBd">
+                            <b>โมจิริง</b>
+                        </h2>
+                        <p style="text-align: center; margin-bottom: 40px; font-size: 24px;" id="DBOzoneX">
+                            สัมผัสความนุ่มแสนอร่อยแบบพิเศษ<br>
+                            กับ โดนัท โมจิริง จาก ดังกิ้นโดนัท
+                        </p>
+                    </div>
+                </div>
+                <div class="global-container m-4 mt-0">
+                    <center>
+                        <div id="mojiring"
+                            style="display: flex; flex-wrap: wrap; width: 100%; max-width: 1200px; margin: auto; position: relative;">
+                            <div class="row">
+                                <div style="width: 615px;">
+                                    <img src="img/donut/28.jpg" alt="" width="100%" id="donut"
+                                    style=" cursor: pointer;">
+
+                                </div>
+                                <div class="square55">
+                                    <p style="color: black; padding: 40px; padding-top: 30px; font-size: 20px; text-align: left; font-size: 19px;"
+                                        id="DBOzoneX"><b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd"
+                                            class="title">เกลซด์</b></a><br>โมจิริง นุ่ม หนึบ เคลือบด้วยน้าตาลเกลซด์
+                                        หอมหวาน<br><br><br></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="square333">
+                                    <p style="color: black; padding: 40px; padding-top: 30px; font-size: 20px; text-align: left; font-size: 19px;"
+                                        id="DBOzoneX"><b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd"
+                                            class="title">สตรอเบอร์รี่</b></a><br>โมจิริง นุ่ม หนึบ
+                                        เคลือบด้วยช็อคโกแลตรสสตรอเบอร์รี่<br><br><br></p>
+                                </div>
+                                <div style="width: 307.5px;">
+                                    <center><img src="img/donut/29.jpg" alt="" width="100%" style=" cursor: pointer;"
+                                            id="donutss">
+                                    </center>
+                                </div>
+                                <div class="square333">
+                                    <p style="color: black; padding: 40px; padding-top: 30px; font-size: 20px; text-align: left; font-size: 19px;"
+                                        id="DBOzoneX"><b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd"
+                                            class="title">ช็อคโกแลตมาร์เบิล</b></a><br>โมจิริง นุ่ม หนึบ
+                                        เคลือบด้วยไวท์ช็อคโกแลตเบิ้ลเส้นด้วยช็อคโกแลต<br><br><br></p>
+                                </div>
+                                <div style="width: 307.5px;">
+                                    <center><img src="img/donut/30.jpg" alt="" width="100%" style=" cursor: pointer;"
+                                            id="donutss">
+                                    </center>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div style="width: 307.5px;">
+                                    <center><img src="img/donut/31.jpg" alt="" width="100%" style=" cursor: pointer;"
+                                            id="donutss"></center>
+                                </div>
+                                <div class="square444">
+                                    <p style="color: black; padding: 40px; padding-top: 30px; font-size: 20px; text-align: left; font-size: 19px;"
+                                        id="DBOzoneX"><b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd"
+                                            class="title">ช็อคโกแลต</b></a><br>โมจิริง นุ่ม หนึบ
+                                        เคลือบด้วยช็อคโกแลตเข้มข้น ระดับพรีเมี่ยม<br><br><br></p>
+                                </div>
+
+                                <div style="width: 307.5px;">
+                                    <center><img src="img/donut/32.jpg" alt="" width="100%" style=" cursor: pointer;"
+                                            id="donutss"></center>
+                                </div>
+                                <div class="square444">
+                                    <p style="color: black; padding: 40px; padding-top: 30px; font-size: 20px; text-align: left; font-size: 19px;"
+                                        id="DBOzoneX"><b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd"
+                                            class="title">เพลน</b></a><br>โมจิริง นุ่ม หนึบ หอมอร่อย แบบคลาสสิค
+                                        สูตรเฉพาะดังกิ้น โดนัท<br><br><br></p>
+                                </div>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <div id="muchkin" style="margin-top: 180px;">
+                <div class="row">
+                    <div class="col-12" style="line-height: 1; text-align: center;">
+                        <h2 style="text-align: center; margin-bottom: 20px; font-size: 44px;" id="DBOzoneXBd">
+                            <b>มันชกิ้น โดนัท</b>
+                        </h2>
+                        <p style="text-align: center; margin-bottom: 40px; font-size: 24px;" id="DBOzoneX">
+                            โดนัทแบบกลม สอดไส้หลากหลายความอร่อย<br>
+                            ผู้นำรสชาติที่เป็นเอกลักษณ์มาอย่างยาวนาน
+                        </p>
+                    </div>
+                </div>
+                <div class="global-container m-4 mt-0">
+                    <center>
+                        <div id="muchkin"
+                            style="display: flex; flex-wrap: wrap; width: 100%; max-width: 1200px; margin: auto; position: relative;">
+                            <div class="row">
+                                <div class="square333">
+                                    <p style="color: black; padding: 40px; padding-top: 30px; font-size: 20px; text-align: left; font-size: 21px;"
+                                        id="DBOzoneX"><b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd"
+                                            class="title">บลูเบอร์รี่</b></a><br>มันชกิ้น เนื้อยีสต์
+                                        คลุกเคล้าด้วยน้าตาลไอซิ่ง
+                                        สอดไส้หอมหวานซ้อนเปรี้ยว ด้วยแยมบลูเบอร์รี่<br><br><br></p>
+                                </div>
+                                <div style="width: 307.5px;">
+                                    <center><img src="img/donut/33.jpg" alt="" width="100%" style=" cursor: pointer;"
+                                            id="donutss">
+                                    </center>
+                                </div>
+                                <div class="square333">
+                                    <p style="color: black; padding: 40px; padding-top: 30px; font-size: 20px; text-align: left; font-size: 21px;"
+                                        id="DBOzoneX"><b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd"
+                                            class="title">สตรอเบอร์รี่</b></a><br>มันชกิ้น เนื้อยีสต์
+                                        คลุกเคล้าด้วยน้าตาลไอซิ่ง
+                                        สอดไส้แยมสตรอเบอร์รี่ หอมหวานซ้อนเปรี้ยว<br><br><br></p>
+                                </div>
+                                <div style="width: 307.5px;">
+                                    <center><img src="img/donut/34.jpg" alt="" width="100%" style=" cursor: pointer;"
+                                            id="donutss">
+                                    </center>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div style="width: 307.5px;">
+                                    <center><img src="img/donut/35.jpg" alt="" width="100%" style=" cursor: pointer;"
+                                            id="donutss">
+                                    </center>
+                                </div>
+                                <div class="square444">
+                                    <p style="color: black; padding: 40px; padding-top: 30px; font-size: 20px; text-align: left; font-size: 21px;"
+                                        id="DBOzoneX"><b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd"
+                                            class="title">บาวาเรี่ยน</b></a><br>มันชกิ้น เนื้อยีสต์
+                                        คลุกเคล้าด้วยน้าตาลไอซี่ง สอดไส้บาวาเรี่ยนครีม รสชาติหอมหวานมัน
+                                        กลิ่นวานิลลา<br><br><br></p>
+                                </div>
+
+                                <div style="width: 307.5px;">
+                                    <center><img src="img/donut/36.jpg" alt="" width="100%" style=" cursor: pointer;"
+                                            id="donutss">
+                                    </center>
+                                </div>
+
+                                <div class="square444">
+                                    <p style="color: black; padding: 40px; padding-top: 30px; font-size: 20px; text-align: left; font-size: 21px;"
+                                        id="DBOzoneX"><b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd"
+                                            class="title">พาวเดอร์</b></a><br>มันชกิ้น เนื้อเค้กช็อคโกแลต
+                                        คลุกเคล้าด้วยน้าตาลไอซี่ง<br><br><br></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="square333">
+                                    <p style="color: black; padding: 40px; padding-top: 30px; font-size: 20px; text-align: left; font-size: 21px;"
+                                        id="DBOzoneX"><b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd"
+                                            class="title">เกลซด์</b></a><br>มันชกิ้น เนื้อเค้กช็อคโกแลต
+                                        เคลือบด้วยน้าตาลเกลซด์ สูตรเฉพาะดังกิ้น โดนัท<br><br><br></p>
+                                </div>
+                                <div style="width: 307.5px;">
+                                    <center><img src="img/donut/37.jpg" alt="" width="100%" style=" cursor: pointer;"
+                                            id="donutss"></center>
+                                </div>
+                                <div class="square333">
+                                    <p style="color: black; padding: 40px; padding-top: 30px; font-size: 20px; text-align: left; font-size: 21px;"
+                                        id="DBOzoneX"><b style="font-size: 28px;  cursor: pointer;" id="DBOzoneXBd"
+                                            class="title">ช็อคโกแลตบัตเตอร์นัท</b></a><br>มันชกิ้น เนื้อเค้กช็อคโกแลต
+                                        เคลือบน้าตาลเกลซด์ และคลุกเคล้าด้วยถั่วลิสงอบคุณภาพดี<br><br><br></p>
+                                </div>
+                                <div style="width: 307.5px;">
+                                    <center><img src="img/donut/38.jpg" alt="" width="100%" style=" cursor: pointer;"
+                                            id="donutss"></center>
+                                </div>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <div class="footer">
+        <div class="row">
+            <div class="col-3" style="margin-top:-30px; padding-right: 30px;">
+                <div>
+                    <p>
                     <div>
-                        <a style="font-size: 14px;" href="donut.html" class="is-active">DONUTS & MUNCHKINS</a>
+                        <a style="color: white; text-decoration: none;" href="#"><span class="title"
+                                style="font-size: 12px;" id="GothamBold">COFFEE & MORE</span></a>
+                    </div>
+                    </p>
+                    <div>
+                        <a style="color: white; text-decoration: none;" href="donut.html"><b style="font-size: 11px;"
+                                id="GothamBook" class="title">DONUTS & MUNCHKINS</b></a>
                     </div>
                     <div>
-                        <a style="font-size: 14px;" id="GothamBook" href="coffee.html">COFFEE MENU</a>
+                        <a style="color: white; text-decoration: none;" href="Coffee.html"><b style="font-size: 11px;"
+                                id="GothamBook" class="title">COFFEE MENU</b></a>
                     </div>
                     <div>
-                        <a style="font-size: 14px;" id="GothamBook" href="Sandwiches.html">SANDWICHES</a>
+                        <a style="color: white; text-decoration: none;" href="Sandwiches.html"><b
+                                style="font-size: 11px;" id="GothamBook" class="title">SANDWICHES</b></a>
                     </div>
                     <div>
-                        <a style="font-size: 14px;" id="GothamBook" href="Everyday.html">EVERYDAY PACK</a>
+                        <a style="color: white; text-decoration: none;" href="Everyday.html"><b style="font-size: 11px;"
+                                id="GothamBook" class="title">SET PACK</b></a>
                     </div>
                     <div>
-                        <a style="font-size: 14px;"  id="GothamBook" href="Other.html">OTHER BEVERAGE</a>
+                        <a style="color: white; text-decoration: none;" href="Other.html"><b style="font-size: 11px;"
+                                id="GothamBook" class="title">OTHER BEVERAGE</b></a>
                     </div>
                 </div>
             </div>
 
+<<<<<<< Updated upstream
             <!-- <div class="dd-container"> -->
               <div class="dd-navbarsocial">
 
@@ -516,66 +1084,71 @@
                 <p><div>
                   <a style="color: white; text-decoration: none;"  href="#"><span class="title" style="font-size: 12px;" id="GothamBold">COFFEE & MORE</span></a>
                 </div></p>
+=======
+            <div class="col-3" style="margin-top:-60px; padding-right: 30px;">
+                <p>
+>>>>>>> Stashed changes
                 <div>
-                    <a style="color: white; text-decoration: none;"  href="donut.html"><b style="font-size: 11px;" id="GothamBook" class="title">DONUTS & MUNCHKINS</b></a>
+                    <a style="color: white; text-decoration: none;" href="DDCard.html"><span class="title"
+                            style="font-size: 12px;" id="GothamBold">DD CARD</span></a>
+                </div>
+                </p>
+                <div>
+                    <a style="color: white; text-decoration: none;" href="DDCard.html"><b class="title"
+                            style="font-size: 11px;" id="GothamBook">CARD INFORMATION</b></a>
                 </div>
                 <div>
-                    <a style="color: white; text-decoration: none;"  href="Coffee.html"><b style="font-size: 11px;" id="GothamBook" class="title">COFFEE MENU</b></a>
+                    <a style="color: white; text-decoration: none;" href=""><b class="title" style="font-size: 11px;"
+                            id="GothamBook">REGISTRATION</b></a>
                 </div>
                 <div>
-                    <a style="color: white; text-decoration: none;"  href="Sandwiches.html"><b style="font-size: 11px;" id="GothamBook" class="title">SANDWICHES</b></a>
+                    <a style="color: white; text-decoration: none;" href=""><b class="title" style="font-size: 11px;"
+                            id="GothamBook">SIGN IN</b></a>
                 </div>
                 <div>
-                    <a style="color: white; text-decoration: none;"  href="Everyday.html"><b style="font-size: 11px;" id="GothamBook" class="title">SET PACK</b></a>
+                    <a style="color: white; text-decoration: none;" href=""><b class="title" style="font-size: 11px;"
+                            id="GothamBook">REGISTER</b></a>
                 </div>
-                <div>
-                    <a style="color: white; text-decoration: none;"  href="Other.html"><b style="font-size: 11px;" id="GothamBook" class="title">OTHER BEVERAGE</b></a>
-                </div>
-        </div>
-        </div>
+            </div>
 
-        <div class="col-3" style="margin-top:-60px; padding-right: 30px;">
-                <p><div>
-                    <a style="color: white; text-decoration: none;"  href="DDCard.html"><span class="title" style="font-size: 12px;" id="GothamBold">DD CARD</span></a>
-                </div></p>
+            <div class="col-3" style="margin-top:-110px; padding-right: 30px;">
+                <p>
                 <div>
-                    <a style="color: white; text-decoration: none;"  href="DDCard.html"><b class="title" style="font-size: 11px;" id="GothamBook">CARD INFORMATION</b></a>
+                    <a style="color: white; text-decoration: none;" href="Snack.html"><span class="title"
+                            style="font-size: 12px;" id="GothamBold">SNACK BOX</span></a>
+                </div>
+                </p>
+                <div>
+                    <a style="color: white; text-decoration: none;" href="Snack.html"><b class="title"
+                            style="font-size: 11px;" id="GothamBook">INFORMATION</b></a>
                 </div>
                 <div>
-                    <a style="color: white; text-decoration: none;"  href=""><b class="title" style="font-size: 11px;" id="GothamBook">REGISTRATION</b></a>
+                    <a style="color: white; text-decoration: none;" href="Snack.html"><b class="title"
+                            style="font-size: 11px;" id="GothamBook">MENU & PRICE</b></a>
                 </div>
-                <div>
-                    <a style="color: white; text-decoration: none;"  href=""><b class="title" style="font-size: 11px;" id="GothamBook">SIGN IN</b></a>
-                </div>
-                <div>
-                    <a style="color: white; text-decoration: none;"  href=""><b class="title" style="font-size: 11px;" id="GothamBook">REGISTER</b></a>
-                </div>
-      </div>
+            </div>
 
-      <div class="col-3" style="margin-top:-110px; padding-right: 30px;">
-                <p><div>
-                  <a style="color: white; text-decoration: none;"  href="Snack.html"><span class="title" style="font-size: 12px;" id="GothamBold">SNACK BOX</span></a>
-                </div></p>
-                <div>
-                    <a style="color: white; text-decoration: none;"  href="Snack.html"><b class="title" style="font-size: 11px;" id="GothamBook">INFORMATION</b></a>
-                </div>
-                <div>
-                    <a style="color: white; text-decoration: none;"  href="Snack.html"><b class="title" style="font-size: 11px;" id="GothamBook">MENU & PRICE</b></a>
-                </div>
-      </div>
-        
-      <div class="col-3" style="margin-top:-90px; padding-right: 30px;" >
-          <div><a style="color: white; text-decoration: none;"   href=""><span class="title" style="font-size: 12px;" id="GothamBold">STORE LOCATIONS</span></a></div>
-          <div><a style="color: white; text-decoration: none;"   href=""><span class="title" style="font-size: 12px;" id="GothamBold">JOBS</span></a></div>
-          <div><a style="color: white; text-decoration: none;"   href="About.html"><span class="title" style="font-size: 12px;" id="GothamBold">ABOUT US</span></a></div>
-          <div><a style="color: white; text-decoration: none;"   href="Contact.html"><span class="title" style="font-size: 12px;" id="GothamBold">CONTACT US</span></a></div>
+            <div class="col-3" style="margin-top:-90px; padding-right: 30px;">
+                <div><a style="color: white; text-decoration: none;" href=""><span class="title"
+                            style="font-size: 12px;" id="GothamBold">STORE LOCATIONS</span></a></div>
+                <div><a style="color: white; text-decoration: none;" href=""><span class="title"
+                            style="font-size: 12px;" id="GothamBold">JOBS</span></a></div>
+                <div><a style="color: white; text-decoration: none;" href="About.html"><span class="title"
+                            style="font-size: 12px;" id="GothamBold">ABOUT US</span></a></div>
+                <div><a style="color: white; text-decoration: none;" href="Contact.html"><span class="title"
+                            style="font-size: 12px;" id="GothamBold">CONTACT US</span></a></div>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div class="row">
+            <div class="col-3"><span style="font-size: 18px;" id="DBOzoneX">© DUNKIN' DONUTS THAILAND 2018</span>
+            </div>
+            <div class="col-9" style="float: right; text-align: right;"><span style="font-size: 18px;"
+                    id="DBOzoneX">ADDRESS : 33/4 THE 9 TOWERS GRAND RAMA9, 18TH FL.,TOWER A,RAMA9 ROAD HUAYKWANG,
+                    HUAYKWANG,BANGKOK 10310 THAILAND</sapan>
+            </div>
+        </div>
     </div>
-    </div>
-    <br><br><br><br>
-  <div class="row">
-    <div class="col-3"><span style="font-size: 18px;" id="DBOzoneX">© DUNKIN' DONUTS THAILAND 2018</span></div>
-    <div class="col-9" style="float: right; text-align: right;"><span style="font-size: 18px;" id="DBOzoneX">ADDRESS  :  33/4 THE 9 TOWERS GRAND RAMA9, 18TH FL.,TOWER A,RAMA9 ROAD HUAYKWANG, HUAYKWANG,BANGKOK 10310 THAILAND</sapan></div>
-  </div>    
-  </div>
 </body>
-</html> 
+
+</html>
