@@ -246,8 +246,18 @@ html{
     padding: 0 20px;
     text-align: center;
     font-size: 18px;
+    line-height: 1;
+}
+#donuta{
+  margin: 20px;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1;
+
 }
 
+#donuta:hover{-webkit-transform:scale(1.1);transform:scale(1.1);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}
 #donut:hover{-webkit-transform:scale(1.15);transform:scale(1.15);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}
 
 .title:hover {color:#f77b00;transition:color .15s ease}
@@ -344,11 +354,13 @@ html{
     height: 330px;
     width: 330px;
     background-color: #e2e2e2;
+    line-height: 1;
   }
   .square444 {
     height: 330px;
     width: 330px;
     background-color: #e2e2e2;
+    line-height: 1;
   }
 
   .square:after {
@@ -523,7 +535,7 @@ html{
     border-left: 15px solid #E04B94;
   }
 
-  #coffee:hover{-webkit-transform:scale(1.02);transform:scale(1.02);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}
+  #coffee:hover{-webkit-transform:scale(1.1);transform:scale(1.1);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}
 
    .arrow:hover{
            margin-left: 5px;
@@ -589,7 +601,7 @@ html{
 
 .square333:after {
   content: "";
-  bottom: 50%;
+  bottom: 26%;
   left: 52%;
   display: block;
   position: relative;
@@ -793,7 +805,7 @@ html{
 .barpink{
   list-style-type: none;
   margin: 0;
-  margin-left: -65px;
+  margin-left: -60px;
   padding: 0;
   height: 2180px;
   width: 270px;
