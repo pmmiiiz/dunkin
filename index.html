@@ -11,11 +11,17 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
-    <script src="./script1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+    <script src="./script.js"></script>
 </head>
 
 <body style="background-color: #f7f7f7;">
     <div class="global-container sticky-top" style="background-color: white;">
+        <div id="loader-bg">
+            <img src="img/header/logo.png "  id="loader-bg-1">
+        </div>
         <header>
             <nav class="dd-nav">
                 <div class="dd-container">
@@ -43,6 +49,12 @@
                             </div>
                             <div>
                                 <a style="font-size: 14px;" id="GothamBold" href="promotion.html">PROMOTION</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBold" href="">STORE LOCATIONS</a>
+                            </div>
+                            <div>
+                              <a style="font-size: 14px;" id="GothamBold" href="">JOBS  </a>
                             </div>
                         </div>
                     </div>
@@ -103,9 +115,15 @@
     <section>
         <img class="mySlides" src="img/slide/home.jpg" style="width:100%">
         <div class="carousel-caption" style="top: 200px; text-align: left;">
-            <h2 style="font-size: 48px; color:#f58220" id="DBOzoneXBd">DUNKIN'</h2>
-            <p style="font-size: 30px; color:#f58220" id="DBOzoneX">WITH THE NEW CONCEPT "COFFEE &amp; MORE",
-                <br />ENABLES US TO OFFER VARIETY OF MENU <br />FOR OUR VALUED CUSTOMERS.</p>
+            <div class="global-container">
+                <center>
+                    <div class="row"
+                        style="display: inline-flex; position: relative;
+              width: 100%; max-width: 1480px; padding: 0 45px; margin: 0 auto; margin-left: 2%; position: relative; padding-top: 30px;">
+                        <div class="col-12" style="float: left; text-align: left;">
+            <h2 style="font-size: 80px; color:#f58220; line-height: 1;" id="DBOzoneXBd">DUNKIN'</h2>
+            <p style="font-size: 30px; color:#f58220; line-height: 1;" id="DBOzoneX">WITH THE NEW CONCEPT "COFFEE &amp; MORE",
+                <br />ENABLES US TO OFFER VARIETY OF MENU <br />FOR OUR VALUED CUSTOMERS.</p><br />
             <a href="coffee.html">
                 <button class="dd-arrow-btn" style="background-color: #e83e96;
           border: 1px solid #e83e96;
@@ -114,7 +132,11 @@
                     <span style="font-size: 18px;" id="DBOzoneX">MORE DETAIL</span>
                     <i class="arrow"><img src="img/slide/arrow.svg" alt=""></i>
                 </button> </a>
+            </div>
         </div>
+    </center>
+</div>
+    </div>
     </section>
 
 
@@ -124,9 +146,9 @@
                 style="display: inline-flex; position: relative;
       width: 100%; max-width: 1480px; padding: 0 45px; margin: 0 auto; margin-left: 0%; position: relative; padding-top: 50px;">
                 <div class="col-12" style="float: left; ">
-                    <h2 style="font-size: 2.60417vw; color: #323232; text-align: left; padding: 0 240px;" id="DBOzoneXBd"><b>ENJOY YOUR
+                    <h2 style="font-size: 2.60417vw; color: #323232; text-align: left; padding: 0 240px; line-height: 1;" id="DBOzoneXBd"><b>ENJOY YOUR
                             MOMENT</b></h3>
-                        <p style="font-size: 24px; color: #323232; text-align: left; padding: 0 240px;" id="DBOzoneX">คุณภาพความสดใหม่
+                        <p style="font-size: 24px; color: #323232; text-align: left; padding: 0 240px; line-height: 1;" id="DBOzoneX">คุณภาพความสดใหม่
                             และรสชาติที่เป็นเอกลักษณ์<br />
                             คือ หัวใจสำคัญตลอดระยะเวลากว่า 3 ทศวรรษที่ผ่านมาของดังกิ้นโดนัท<br />
                             ที่เป็นแรงขับเคลื่อนให้เรามุ่งมั่นพัฒนาสินค้าชนิดใหม่ด้วยนวัตกรรมที่ทันสมัยอยู่เสมอ</p>
@@ -139,98 +161,100 @@
 
 
 
-    <div class="global-container"  style="background-color: #f7f7f7; padding: 0 40px;">
+    <div class="global-container"  style="background-color: #f7f7f7; padding: 0 70px;">
         <center>
         <div class="row" style="display: inline-flex; position: relative; width: 100%; max-width: 1480px; 
         padding: 0 45px; margin: 0 auto; margin-left: 0%; position: relative; padding-top: 50px;">
+
             <div class="card-group">
                 <div class="col-4">
+                    <div class="card">
+                        <div class="card-img-top" style="width:400px; height: 240px;">
+                            <a href="DDCard.html">
+                            <img src="img/home/1.jpg" width="100%" style="left: 0px; 
+                            top: 0px; width:400px; height: 240px;">
+                            </a>
+                        </div>
 
-                    <div class="card-img-top">
-                        <a href="DDCard.html">
-                          <img src="img/home/1.jpg" width="100%" id="d1" style=" left: 0px; 
-                          top: 0px; width:100%; height: 100%;" >
-                        </a>
+                        <div class="card-body text-left" style="background-color: #ffffff; padding: 40px;">
+                            <a href="DDCard.html" style="text-decoration: none; color: #323232;">
+                                <h3 class="title" style="font-size: 28px; line-height: 1;" id="DBOzoneXBd">DUNKIN' PRIVILEGE CARD</h3>
+                            </a>
+                            <p class="card-text" style="font-size: 20px; line-height: 1; color: #323232;" id="DBOzoneX">พิเศษสำหรับ สมาชิก<br />
+                                พิเศษสุดสำหรับผู้ถือบัตรสมาชิก DD Card <br />
+                                มอบส่วนลด 15% ทุกวัน</p>
+                            <a href="DDCard.html">
+                                <button class="dd-arrow-btn" style="background-color: #e83e96;
+                            border: 1px solid #e83e96;
+                            border-radius: 50em;
+                            color: white;">
+                                    <span style="font-size: 18px;" id="DBOzoneX">MORE DETAIL</span>
+                                    <i class="arrow"><img src="img/slide/arrow.svg" alt=""></i>
+                                </button>
+                            </a>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="card-body text-left" style="background-color: #ffffff; padding: 40px;">
-                        <a href="DDCard.html" style="text-decoration: none; color: #323232;">
-                            <h3 class="title" style="font-size: 28px" id="DBOzoneXBd">DUNKIN' PRIVILEGE CARD</h3>
-                        </a>
-                        <p class="card-text" style="font-size: 20px; color: #323232;" id="DBOzoneX">พิเศษสำหรับ สมาชิก<br />
-                            พิเศษสุดสำหรับผู้ถือบัตรสมาชิก DD Card <br />
-                            มอบส่วนลด 15% ทุกวัน</p>
-                        <a href="DDCard.html">
-                            <button class="dd-arrow-btn" style="background-color: #e83e96;
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-img-top" style="width:400px; height: 240px; ">
+                            <a href="coffee.html">
+                            <img src="img/home/2.jpg"  style="left: 0px; 
+                            top: 0px; width:400px; height: 240px; ">
+                            </a>
+                        </div>
+
+                        <div class="card-body text-left" style="background-color: #ffffff; padding: 40px;">
+                            <a href="coffee.html" style="text-decoration: none; color: #323232;">
+                                <h3 class="title" style="font-size: 28px; line-height: 1;" id="DBOzoneXBd">COFFEE & MORE</h3>
+                            </a>
+                            <p class="card-text" style="font-size: 20px; line-height: 1; color: #323232;" id="DBOzoneX">หลากหลากสไตล์ความอร่อย <br />
+                            ที่มากกว่าโดนัทและกาแฟ</p>
+                            <a href="coffee.html">
+                                <button class="dd-arrow-btn" style="background-color: #e83e96;
                         border: 1px solid #e83e96;
                         border-radius: 50em;
                         color: white;">
-                                <span style="font-size: 18px;" id="DBOzoneX">MORE DETAIL</span>
-                                <i class="arrow"><img src="img/slide/arrow.svg" alt=""></i>
-                            </button>
-                        </a>
+                                    <span style="font-size: 18px;" id="DBOzoneX">MORE DETAIL</span>
+                                    <i class="arrow"><img src="img/slide/arrow.svg" alt=""></i>
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-4">
-                    <div class="box" style="box-shadow: 0 0 80px transparent;
-                    transition: box-shadow .3s ease;">
-                    <div class="card-img-top" >
-                        <a href="coffee.html">
-                          <img src="img/home/2.jpg"   style="left: 0px; 
-                          top: 0px; width:100%; ">
-                        </a>
-                    </div>
+                    <div class="card">
+                        <div class="card-img-top" style="width:400px; height: 240px;">
+                            <a href="http://www.dunkindonuts.co.th/store">
+                            <img src="img/home/3.jfif" style=" left: 0px; 
+                            top: 0px; width:400px; height: 240px;">
+                            </a>
+                        </div>
 
-                    <div class="card-body text-left" style="background-color: #ffffff; padding: 40px;">
-                        <a href="coffee.html" style="text-decoration: none; color: #323232;">
-                            <h3 class="title" style="font-size: 28px;" id="DBOzoneXBd">COFFEE & MORE</h3>
-                        </a>
-                        <p class="card-text" style="font-size: 20px; color: #323232;" id="DBOzoneX">หลากหลากสไตล์ความอร่อย <br />
-                          ที่มากกว่าโดนัทและกาแฟ</p>
-                        <a href="coffee.html">
-                            <button class="dd-arrow-btn" style="background-color: #e83e96;
-                    border: 1px solid #e83e96;
-                    border-radius: 50em;
-                    color: white;">
-                                <span style="font-size: 18px;" id="DBOzoneX">MORE DETAIL</span>
-                                <i class="arrow"><img src="img/slide/arrow.svg" alt=""></i>
-                            </button>
-                        </a>
-                    </div>
+                        <div class="card-body text-left" style="background-color: #ffffff; padding: 40px;">
+                            <a href="http://www.dunkindonuts.co.th/store" style="text-decoration: none; color: #323232;">
+                                <h3 class="title" style="font-size: 28px; line-height: 1;" id="DBOzoneXBd">DUNKIN'  NEAR BY</h3>
+                            </a>
+                            <p class="card-text" style="font-size: 20px; line-height: 1; color: #323232;" id="DBOzoneX">ร้านดังกิ้น โดนัท ใกล้บ้านคุณ</p>
+                            <a href="http://www.dunkindonuts.co.th/store">
+                                <button class="dd-arrow-btn" style="background-color: #e83e96;
+                        border: 1px solid #e83e96;
+                        border-radius: 50em;
+                        color: white;">
+                                    <span style="font-size: 18px;" id="DBOzoneX">MORE DETAIL</span>
+                                    <i class="arrow"><img src="img/slide/arrow.svg" alt=""></i>
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <div class="card-img-top">
-                        <a href="http://www.dunkindonuts.co.th/store">
-                          <img src="img/home/3.jfif" style=" left: 0px; 
-                          top: 0px; width:100%; height: 100%;">
-                        </a>
-                    </div>
-
-                    <div class="card-body text-left" style="background-color: #ffffff; padding: 40px;">
-                        <a href="http://www.dunkindonuts.co.th/store" style="text-decoration: none; color: #323232;">
-                            <h3 class="title" style="font-size: 28px;" id="DBOzoneXBd">DUNKIN'  NEAR BY</h3>
-                        </a>
-                        <p class="card-text" style="font-size: 20px; color: #323232;" id="DBOzoneX">ร้านดังกิ้น โดนัท ใกล้บ้านคุณ</p>
-                        <a href="http://www.dunkindonuts.co.th/store">
-                            <button class="dd-arrow-btn" style="background-color: #e83e96;
-                    border: 1px solid #e83e96;
-                    border-radius: 50em;
-                    color: white;">
-                                <span style="font-size: 18px;" id="DBOzoneX">MORE DETAIL</span>
-                                <i class="arrow"><img src="img/slide/arrow.svg" alt=""></i>
-                            </button>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
     </center>
 </div>
-        </div>
-    </div>
     <br />
     <br />
     <br />
@@ -306,5 +330,6 @@
       <div class="col-9" style="float: right; text-align: right;"><span style="font-size: 18px;" id="DBOzoneX">ADDRESS  :  33/4 THE 9 TOWERS GRAND RAMA9, 18TH FL.,TOWER A,RAMA9 ROAD HUAYKWANG, HUAYKWANG,BANGKOK 10310 THAILAND</sapan></div>
     </div>    
     </div>
+    
   </body>
   </html> 
