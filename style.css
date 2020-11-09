@@ -273,7 +273,11 @@ text-align: center;
 
 
 .title:hover {color:#f77b00;transition:color .15s ease}
-
+#donutsss{
+  padding: 0 31px;
+  text-align: center;
+  font-size: 18px;
+}
 /*--Everyday--*/
 .vlp {
   margin-left: 50px;
