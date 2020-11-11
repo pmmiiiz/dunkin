@@ -294,11 +294,11 @@ text-align: center;
 }
 
 
-
+/* 
 #pack:hover{
   background-color: #f7f7f7; 
   transition: all 0.8s ease-out;
--webkit-font-smoothing: antialiased;
+-webkit-font-smoothing: antialiased; */
   
 }
 
@@ -318,12 +318,20 @@ text-align: center;
  
 }
 
-#sand:hover{
-  background-color: #f7f7f7; 
-  transition: all 0.8s ease-out;
--webkit-font-smoothing: antialiased;
-  
+#sec1{
+  background-color: rgb(275, 275, 275, 0);
 }
+#sec2{
+  background-color: rgb(275, 275, 275, 0);
+}
+#sec3{
+  background-color: rgb(275, 275, 275, 0);
+}
+#sec4{
+  background-color: rgb(275, 275, 275, 0);
+}
+
+
 
 
 /*--Coffee--*/
