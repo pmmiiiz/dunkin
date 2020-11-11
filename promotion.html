@@ -1,496 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="http://shorebranding.com/wp-content/uploads/2015/05/Dunkin-Logo.jpg">
-  <title>Dunkin'Thailand | ดังกิ้น ประเทศไทย'</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
-  <script src="script.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.minjs"></script>
-  <script src="load-more-button.js"></script>
-
-</head>
-
-<body>
-  <button onclick="topFunction()" id="MyBTN" title="ไปยังด้านบน">
-    <div class="container">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://shorebranding.com/wp-content/uploads/2015/05/Dunkin-Logo.jpg">
+    <title>Dunkin'Thailand | ดังกิ้น ประเทศไทย'</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.minjs"></script>
+    <script src="load-more-button.js"></script>
+    <script src="date.js"></script>
+  </head>
+<body >
+<button onclick="topFunction()" id="MyBTN" title="ไปยังด้านบน">
+  <div class="container">
       <div class="kuy-jadi">
-        <img src="img/promotion/arrow.svg" width="30px">
+      <img src="img/promotion/arrow.svg" width="30px">
       </div>
-      <div class="box">
-        <div class="test-text">
+    <div class="box">
+      <div class="test-text">
           <span class="test-text-span"><b>BACK</b></span>
           <span>TO</span>
           <span>TOP</span>
-        </div>
       </div>
     </div>
-  </button>
-  <div class="global-container sticky-top" style="background-color: white;">
-    <header>
-      <nav class="dd-nav">
-        <div class="dd-container">
-          <div class="dd-navbar">
-            <a href="index.html" class="logo">
-              <img src="img/header/logo.png">
-            </a>
-          </div>
-        </div>
-        <div class="dd-navlist">
-          <div class="dd-navlink">
-            <div class="dd-container" style="padding: 0 60px;">
-              <div>
-                <a style="font-size: 14px;" id="GothamBold" href="index.html">HOME </a>
-              </div>
-              <div>
-                <a style="font-size: 14px;" id="GothamBold" href="coffee.html">COFFEE & MORE </a>
-              </div>
-              <div>
-                <a style="font-size: 14px;" id="GothamBold" href="DDCard.html">DD CARD</a>
-              </div>
-              <div>
-                <a style="font-size: 14px;" id="GothamBold" href="Snack.html">SNACK BOX</a>
-              </div>
-              <div>
-                <a style="font-size: 14px;" class="is-active" href="promotion.html">PROMOTION</a>
-              </div>
-              <div>
-                <a style="font-size: 14px;" id="GothamBold" href="">STORE LOCATIONS</a>
-              </div>
-              <div>
-                <a style="font-size: 14px;" id="GothamBold" href="">JOBS </a>
-              </div>
-            </div>
-          </div>
-          <div class="dd-navlink is-sub">
-            <div class="dd-container" style="padding: 0 60px;">
-              <div>
-                <a style="font-size: 14px;" id="GothamBook" href="donut.html">DONUTS & MUNCHKINS</a>
-              </div>
-              <div>
-                <a style="font-size: 14px;" id="GothamBook" href="coffee.html">COFFEE MENU</a>
-              </div>
-              <div>
-                <a style="font-size: 14px;" id="GothamBook" href="Sandwiches.html">SANDWICHES</a>
-              </div>
-              <div>
-                <a style="font-size: 14px;" id="GothamBook" href="Everyday.html">EVERYDAY PACK</a>
-              </div>
-              <div>
-                <a style="font-size: 14px;" id="GothamBook" href="Other.html">OTHER BEVERAGE</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="dd-navbarsocial">
-
-            <ul class="dd-social">
-              <li>
-                <a href="https://www.facebook.com/Dunkinthai" target="_blank" rel="noopener">
-                  <img src="img/header/icon-fb.svg" alt="facebook" width="32px">
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/dunkinthai/?hl=th" target="_blank" rel="noopener">
-                  <img src="img/header/icon-instagram.svg" alt="instagram" width="32px">
-                </a>
-              </li>
-              <li>
-                <a href="https://timeline.line.me/user/_dfyRs2xE1F97v608mWcunldzkz5RKjAd8VDr1JA" target="_blank"
-                  rel="noopener">
-                  <img src="img/header/icon-line.svg" alt="line" width="32px">
-                </a>
-              </li>
-            </ul>
-            <ul class="dd-link" style="font-weight: 200px;">
-              <li><a style="font-size: 14px;" id="GothamBold" href="About.html">ABOUT US</a></li>
-              <li>
-                <h6 style="color: #663701; font-size: 14px;" id="GothamBold">|</h6>
-              </li>
-              <li><a style="font-size: 14px;" id="GothamBold" href="Contact.html">CONTACT US</a></li>
-            </ul>
-          </div>
-
-        </div>
-      </nav>
-    </header>
   </div>
+</button>
+    <div class="global-container sticky-top" style="background-color: white;" >
+      <header>
+        <nav class="dd-nav">
+          <div class="dd-container">
+            <div class="dd-navbar">
+              <a href="index.html" class="logo">
+                <img src="img/header/logo.png">
+              </a>
+            </div>
+          </div>
+          <div class="dd-navlist">
+            <div class="dd-navlink">
+                <div class="dd-container">
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBold" href="index.html">HOME </a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBold" href="coffee.html">COFFEE & MORE </a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBold" href="DDCard.html">DD CARD</a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBold" href="Snack.html">SNACK BOX</a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;" class="is-active" href="promotion.html">PROMOTION</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dd-navlink is-sub">
+                <div class="dd-container">
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBook" href="donut.html">DONUTS & MUNCHKINS</a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBook" href="coffee.html">COFFEE MENU</a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBook" href="Sandwiches.html">SANDWICHES</a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBook" href="Everyday.html">EVERYDAY PACK</a>
+                    </div>
+                    <div>
+                        <a style="font-size: 14px;" id="GothamBook" href="Other.html">OTHER BEVERAGE</a>
+                    </div>
+                </div>
+            </div>
 
-  <section>
-    <img class="Slides" src="img/slide/promotion.jpg" style="width:100%">
-  </section>
+            <div class="dd-container">
+                <div class="dd-navbarsocial">
 
-  <div class="container"
-    style="font-family: 'Mitr', sans-serif; font-size: 22px; margin-bottom: 110px; margin-top: 75px;">
-    <div style="text-align: center;">
-      <div class="section__title">
-        <h2>
-          <span> HILIGHT PROMOTION</span>
-        </h2>
+                    <ul class="dd-social">
+                        <li>
+                          <a href="https://www.facebook.com/Dunkinthai" target="_blank" rel="noopener">
+                            <img src="img/header/icon-fb.svg" alt="facebook">
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.instagram.com/dunkinthai/?hl=th" target="_blank" rel="noopener">
+                            <img src="img/header/icon-instagram.svg" alt="instagram">
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://timeline.line.me/user/_dfyRs2xE1F97v608mWcunldzkz5RKjAd8VDr1JA" target="_blank" rel="noopener">
+                            <img src="img/header/icon-line.svg" alt="line">
+                          </a>
+                        </li>
+                      </ul>
+                      <ul class="dd-link">
+                        <li><a style="font-size: 14px;" id="GothamBold" href="About.html">ABOUT US</a></li>
+                        <li><h5 style="color: #663701;">|</h5></li>
+                        <li><a style="font-size: 14px;" id="GothamBold" href="Contact.html">CONTACT US</a></li>
+                      </ul>
+                </div>
+            </div>
+
+        </div>
+        </nav>
+      </header>
       </div>
-      <div class="dd-promotion-header">
-        <p>Special products for particular peroid to celebrate <br>
-          your ordinary day and make it counts.</p>
-      </div>
-      <br>
-      <div class="column">
-        <div class="HP-box" style="display: flex;">
-          <img src="img/promotion/promo1.jpg" style="width: 560px; height: 355;">
-          <div class="content" style="width: 574; height: 355;"><br> 27 JANUARY 2020 - 1 MARCH 2020<br><br>
-            <hr>
+      <section>
+        <img class="Slides" src="img/slide/promotion.jpg" style="width:100%" >
+      </section>
+      <div id="HilightNav"></div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+      <div class="container" style="font-family: 'Mitr', sans-serif; font-size: 22px; margin-bottom: 110px; margin-top: 75px;">
+        <div style="text-align: center;">
+            <div class="section__title">
+                <h2>
+                    <span><b>HILIGHT PROMOTION</b></span>
+                </h2>
+            </div>
+            <div class="dd-promotion-header">
+                <p>Special products for particular peroid to celebrate <br>
+                your ordinary day and make it counts.</p>
+            </div>
             <br>
-            New! Dunkin’ Lemon Meringue Donut<br>
-            อร่อยแบบเบิร์นๆเกินห้ามใจ กับความอร่อยใหม่จากดังกิ้น <br>
-            ที่ผสมพสานของอร่อยอย่างลงตัวระหว่างเลม่อน รสชาติอมเปรี้ยว ตัดกับเมอแรงค์ รสชาติหวานละมุน
-            พร้อมหอมกลิ่นเลม่อนในทุกคำ กัดไปคำไหนก็ฟินสุดๆ<br>
-            <br><br>
-            <a href="#" title="Dunkin’ Lemon Meringue Donut" style="color: white;">MORE INFO</a>
-            <br><br>
-          </div>
+            <div class="column">
+                <div class="HP-box" style="display: flex;">
+                    <img src="img/promotion/promo1.jpg" style="width: 564px; height: 355;" >
+                        <div class="content" style="width: 574; height: 355;"><br> 27 JANUARY 2020 - 1 MARCH 2020<br><br>
+                          <hr>
+                          <br>
+                        New! Dunkin’ Lemon Meringue Donut<br>
+                        อร่อยแบบเบิร์นๆเกินห้ามใจ กับความอร่อยใหม่จากดังกิ้น  <br>
+                        ที่ผสมพสานของอร่อยอย่างลงตัวระหว่างเลม่อน รสชาติอมเปรี้ยว ตัดกับเมอแรงค์ รสชาติหวานละมุน พร้อมหอมกลิ่นเลม่อนในทุกคำ กัดไปคำไหนก็ฟินสุดๆ<br>
+                        <br><br>
+                        <a href="#" title="Dunkin’ Lemon Meringue Donut" style="color: white;" id="PromotionNav">MORE INFO</a>
+                        <br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <div class="promo" style="background-color: #f1f1f1;">
+        <div class="content__top" style="margin-top: -10px;">
+          <h2 style="text-align: center; padding-top : 55px;font-family: 'DB Ozone X-Bold'; font-size: 44px;" >PROMOTION TODAY</b><br></h2>
+            <div class="row">
+              <div class="row">
+                <div class="left-text" style="margin-left: 15%; margin-bottom: 9.8%;">
+                  <div>
+                      <span style="margin-left: 52%; display: block;"><b id="day"></b></span>
+                      <span style="margin-left: 38%;" id="month"></span>
+                  </div>
+                  <div class="veri">
+                      <span ><b>UPDATE</b></span>
+                      <span style="font-size: 12px; display: block;">PRIVILEGES</span>
+                  </div>
+                  <div>
+                      <span style="display: block; margin-left: 34%;"><b>NOW</b></span>
+                      <span style="display: block; margin-left: 38%;" ><p id="year"></p></span>
+                  </div>
+              </div>
+                <div class="col-2 blogBox moreBox" style="background-color:white; min-width: 320px; width: 100%; padding: 2px 2px;">
+                  <img src="img/promotion/t1.jpg" width="100%" >
+                  <br>
+                  <h5 style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 14px; margin-left: 25px;">2 NOVEMBER 2019 - 31 DECEMBER <br> 2019 <br></h5>
+                  <hr style="width:85%; background-color: black; ">
+                  <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">โดนัทนมชมพู <br></h5>
+                  <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">โดนัทนมชมพู</h5>
+                  <hr style="width:85%; background-color: black;">
+                  <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"  href=""><b class="title">MORE +</b></a>
+                </div>
+                <div class="col-2 blogBox moreBox" style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px;">
+                  <img src="img/promotion/t2.jpg" width="100%" >
+                  <h5 style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 14px; margin-left: 25px;">15 OCTOBER 2019 - 31 OCTOBER 2019 <br></h5>
+                  <hr style="width:85%; background-color: black;">
+                  <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">DUNKIN' Halloween <br></h5>
+                  <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">Dunkin' Happy Halloween</h5>
+                  <hr style="width:85%; background-color: black;">
+                  <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"  href=""><b class="title">MORE +</b></a>
+                </div>
+                <div class="col-2 blogBox moreBox" style="background-color:white; min-width: 320px; width: 100%; padding:3px 1px;">
+                  <img src="img/promotion/t3.jpg" width="100%">
+                  <h5 style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 14px; margin-left: 25px; margin-left: 25px;">19 AUGUST 2019 - 30 SEPTEMBER 2019 <br></h5>
+                    <hr style="width:85%; background-color: black;">
+                    <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px; margin-left: 25px;">DUNKIN' TAKOYAKI STYLE DONUT <br></h5>
+                    <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px; margin-left: 25px;">DUNKIN' TAKOYAKI STYLE DONUT</h5>
+                    <hr style="width:85%; background-color: black;">
+                    <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px; margin-left: 25px;"  href=""><b class="title">MORE +</b></a>
+                </div>
+                <div class="col-2 blogBox moreBox" style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px;">
+                  <img src="img/promotion/t5.jpg" width="100%">
+                  <h5 style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 14px; margin-left: 25px;">2 AUGUST 2019 - 31 AUGUST 2019 <br></h5>
+                    <hr style="width:85%; background-color: black;">
+                    <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">DUNKIN' Golden Boba<br></h5>
+                   <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">ดังกิ้น เมนูใหม่ Golden Boba ไข่มุกสีทอง</h5>
+                    <hr style="width:85%; background-color: black;">
+                    <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"  href=""><b class="title">MORE +</b></a>
+                </div>
+                <div class="col-2 blogBox moreBox " style="background-color:white; margin-left: 18%; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
+                  <img src="img/promotion/t6.jpg" width="100%">
+                  <h5 style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 14px; margin-left: 25px;">3 JULY 2019 <br></h5>
+                    <hr style="width:85%; background-color: black;">
+                    <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">DUNKIN' x SPIDER-MAN FAR FROM HOME<br></h5>
+                   <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">DUNKIN' x SPIDER-MAN FAR FROM HOME</h5>
+                    <hr style="width:85%; background-color: black;">
+                    <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"  href=""><b class="title">MORE +</b></a>
+                </div>
+                <div class="col-2 blogBox moreBox" style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
+                <img src="img/promotion/t7.jpg" width="100%">
+                <h5 style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">3 APRIL 2019 - 15 MAY 2019<br></h5>
+                  <hr style="width:85%; background-color: black;">
+                  <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">Dunkin' Summer Party<br></h5>
+                 <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">สดใส ต้อนรับซัมเมอร์ กับ Dunkin’ Summer Party</h5>
+                  <hr style="width:85%; background-color: black;">
+                  <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"  href=""><b class="title">MORE +</b></a>
+                </div>
+                <div class="col-2 blogBox moreBox" style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
+                  <img src="img/promotion/t8.jpg" width="100%">
+                  <h5 style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">1 MARCH 2019 - 31 MARCH 2019<br></h5>
+                    <hr style="width:85%; background-color: black;">
+                    <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">Wow School Break!<br></h5>
+                   <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">โดนัท 8 ชิ้น เพียง 160 บาทจากราคาเต็ม 232 บาท</h5>
+                    <hr style="width:85%; background-color: black;">
+                    <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"  href=""><b class="title">MORE +</b></a>
+              </div>
+              <div class="col-2 blogBox moreBox" style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
+                <img src="img/promotion/t9.jpg" width="100%">
+                <h5 style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">1 FEBRUARY 2019 - 28 FEBRUARY 2019<br></h5>
+                  <hr style="width:85%; background-color: black;">
+                  <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">Love Confession Donuts<br></h5>
+                 <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">ต้อนรับเทศกาลวาเลนไทน์ 2019 นี้ ด้วยโดนัทสื่อรักในธีม "Love Confession" จากดังกิ้นโดนัท ทั้งโดนัทรูปหัวใจสื่อรัก และเครื่องดื่มที่เข้ากันสุดๆ อย่างมอคค่าเย็น และ ชาเขียวสตรอเบอร์รี่ + สตรอเบอร์รี่ป๊อป พิเศษ!! พบโปรโมชั่นสุดเร้าใจ เมื่อซื้อแวลูแพค (โดนัท6ชิ้น) กล่องแรก ได้สิทธิ์ซื้อแวลูแพคกล่องที่ 2 ลด 50% ในราคาพิเศษสุดเพียง 79 บาท รวมทั้งสิ้นเพียง 238 บาทเท่านั้น!! มามะ..มาเจอกันที่ดังกิ้น โดนัท^^</h5>
+                  <hr style="width:85%; background-color: black;">
+                  <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"  href=""><b class="title">MORE +</b></a>
+              </div>
+              <div class="col-2 blogBox moreBox " style="background-color:white; margin-left: 18%; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
+                <img src="img/promotion/t10.jpg" width="100%">
+                <h5 style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">31 JANUARY 2019 - 28 FEBRUARY 2019<br></h5>
+                  <hr style="width:85%; background-color: black;">
+                  <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">โดนัทตรุษจีน 2562<br></h5>
+                 <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">ต้อนรับเทศกาลตรุษจีนด้วยโดนัทเสริมความเป็นสิริมงคลจากดังกิ้น โดนัท ที่พบทั้งหน้าแฮปปี้บอย ลัคกี้ริง ฟอร์จูนเบอร์รี่ และ เรดแลมป์ ตั้งแต่วันที่ 2 - 8 กุมภาพันธ์ 2562 นี้เท่านั้น</h5>
+                  <hr style="width:85%; background-color: black;">
+                  <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"  href=""><b class="title">MORE +</b></a>
+              </div>
+              <div class="col-2 blogBox moreBox " style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
+                <img src="img/promotion/t11.jpg" width="100%">
+                <h5 style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">1 JANUARY 2019 - 31 JANUARY 2019<br></h5>
+                  <hr style="width:85%; background-color: black;">
+                  <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">Dream Land Donuts<br></h5>
+                 <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">ว้าว..ว้าว.. ในเดือนมกราคม 2562 เริ่มต้นปีด้วยวันเด็ก :) ดังกิ้นโดนัทขอนำเสนอ โดนัทน่ารักน่ากินในคอนเซปต์ดรีมแลนด์ เปิดประตู..สู่ดินแดนแห่งความฝัน พร้อมเครื่องดื่มอร่อยเข้ากันสุดๆ ทั้งคาราเมล มัคคิอาโต และพรีเมี่ยมช็อคโกแลต+ไข่มุกทอง มามะ.เรามีโปรโมชั่นสุดพิเศษด้วย เพียงซื้อแวลูแพค 1 กล่อง รับสิทธิ์ซื้อโดนัท 4 ชิ้น เพียง 69 บาท รวมราคา 228 บาทเท่านั้น พบกัน 4 - 31 มกราคม 2562 นี้เท่านั้นน้า!!</h5>
+                  <hr style="width:85%; background-color: black;">
+                  <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"  href=""><b class="title">MORE +</b></a>
+              </div>
+              <div class="col-2 blogBox moreBox " style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
+                <img src="img/promotion/t12.jpg" width="100%">
+                <h5 style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">11 SEPTEMBER 2018 - 25 OCTOBER 2018<br></h5>
+                  <hr style="width:85%; background-color: black;">
+                  <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">พบกับโดนัท “สภากาแฟ” ที่เอาใจคนรักกาแฟและเครื่องดื่ม มาทั้งสไตล์ออริจินอลและฟิวชั่นสุดฟิน<br></h5>
+                 <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">จัดเต็ม 6 รสชาติให้เลือกอร่อยกันไปเลย ทั้งชาไทย นมเย็น คาปูชิโน่ช็อคชิป คอฟฟี่แอนด์ครีม ช็อคโกมัทฉะ และเฮเซลนัทริง พร้อมเครื่องดื่มคุณภาพ 2 เมนูพิเศษ ทั้งทีรามิสุ มอคค่า และ พาสเทล พิงค์มิลค์ พบกันได้แล้ววันนี้ที่ดังกิ้นโดนัททุกสาขา</h5>
+                  <hr style="width:85%; background-color: black;">
+                  <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"  href=""><b class="title">MORE +</b></a>
+              </div>
+              <div class="col-2 blogBox moreBox " style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
+                <img src="img/promotion/t13.jpg" width="100%">
+                <h5 style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">25 APRIL 2018 - 30 MAY 2018<br></h5>
+                  <hr style="width:85%; background-color: black;">
+                  <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">Promotion Heading<br></h5>
+                 <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">เมื่อซื้อแวลูแพคหนึ่งกล่องรับสิทธิ์ซื้อโดนัทเพิ่ม 2 ชิ้นทันที ในราคา 20 บาท รวม 179 บาท จากปกคิ 232 บาท</h5>
+                  <hr style="width:85%; background-color: black;">
+                  <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"  href=""><b class="title">MORE +</b></a>
+              </div>
+              <div class="col-2 blogBox moreBox " style="background-color:white; margin-left: 18%; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
+                <img src="img/promotion/t14.jpg" width="100%">
+                <h5 style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">10 APRIL 2018 - 17 APRIL 2018<br></h5>
+                  <hr style="width:85%; background-color: black;">
+                  <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">Promotion Heading 2<br></h5>
+                 <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">เมื่อซื้อแวลูแพคหนึ่งกล่องรับสิทธิ์ซื้อโดนัทเพิ่ม 2 ชิ้นทันที ในราคา 20 บาท รวม 179 บาท จากปกคิ 232 บาท</h5>
+                  <hr style="width:85%; background-color: black;">
+                  <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"  href=""><b class="title">MORE +</b></a>
+              </div>
+              <div id="loadMore">
+                <a href="#" style="font-family: 'Gotham-Bold'; font-size: 12px; text-decoration: none;">Load More</a>
+              </div>
+            </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="promo" style="background-color: #f1f1f1;">
-    <div class="content__top" style="margin-top: -10px;">
-      <h2 style="text-align: center; padding-top : 55px;font-family: 'DB Ozone X-Bold'; font-size: 44px;">PROMOTION
-        TODAY</b><br></h2>
+    <nav class="verinavbar">
+      <ul>
+          <li><a href="#HilightNav"  data-id="#recommended" class="is-active"><b>RECOMMENDED</b></a></li>
+          <li><a href="#PromotionNav"  data-id="#promotion" class="is-active"><b>PROMOTION</b></a></li>
+      </ul>
+  </nav>
+        <br><br><br>
+        <div class="footer">
+          <div class="row">
+          <div class="col-3" style="margin-top:-30px; padding-right: 30px;">
+            <div >
+                    <p><div>
+                      <a style="color: white; text-decoration: none;"  href="#"><span class="title" style="font-size: 12px;" id="GothamBold">COFFEE & MORE</span></a>
+                    </div></p>
+                    <div>
+                        <a style="color: white; text-decoration: none;"  href="donut.html"><b style="font-size: 11px;" id="GothamBook" class="title">DONUTS & MUNCHKINS</b></a>
+                    </div>
+                    <div>
+                        <a style="color: white; text-decoration: none;"  href="Coffee.html"><b style="font-size: 11px;" id="GothamBook" class="title">COFFEE MENU</b></a>
+                    </div>
+                    <div>
+                        <a style="color: white; text-decoration: none;"  href="Sandwiches.html"><b style="font-size: 11px;" id="GothamBook" class="title">SANDWICHES</b></a>
+                    </div>
+                    <div>
+                        <a style="color: white; text-decoration: none;"  href="Everyday.html"><b style="font-size: 11px;" id="GothamBook" class="title">SET PACK</b></a>
+                    </div>
+                    <div>
+                        <a style="color: white; text-decoration: none;"  href="Other.html"><b style="font-size: 11px;" id="GothamBook" class="title">OTHER BEVERAGE</b></a>
+                    </div>
+            </div>
+            </div>
+      
+            <div class="col-3" style="margin-top:-60px; padding-right: 30px;">
+                    <p><div>
+                        <a style="color: white; text-decoration: none;"  href="DDCard.html"><span class="title" style="font-size: 12px;" id="GothamBold">DD CARD</span></a>
+                    </div></p>
+                    <div>
+                        <a style="color: white; text-decoration: none;"  href="DDCard.html"><b class="title" style="font-size: 11px;" id="GothamBook">CARD INFORMATION</b></a>
+                    </div>
+                    <div>
+                        <a style="color: white; text-decoration: none;"  href=""><b class="title" style="font-size: 11px;" id="GothamBook">REGISTRATION</b></a>
+                    </div>
+                    <div>
+                        <a style="color: white; text-decoration: none;"  href=""><b class="title" style="font-size: 11px;" id="GothamBook">SIGN IN</b></a>
+                    </div>
+                    <div>
+                        <a style="color: white; text-decoration: none;"  href=""><b class="title" style="font-size: 11px;" id="GothamBook">REGISTER</b></a>
+                    </div>
+          </div>
+      
+          <div class="col-3" style="margin-top:-110px; padding-right: 30px;">
+                    <p><div>
+                      <a style="color: white; text-decoration: none;"  href="Snack.html"><span class="title" style="font-size: 12px;" id="GothamBold">SNACK BOX</span></a>
+                    </div></p>
+                    <div>
+                        <a style="color: white; text-decoration: none;"  href="Snack.html"><b class="title" style="font-size: 11px;" id="GothamBook">INFORMATION</b></a>
+                    </div>
+                    <div>
+                        <a style="color: white; text-decoration: none;"  href="Snack.html"><b class="title" style="font-size: 11px;" id="GothamBook">MENU & PRICE</b></a>
+                    </div>
+          </div>
+            
+          <div class="col-3" style="margin-top:-90px; padding-right: 30px;" >
+              <div><a style="color: white; text-decoration: none;"   href=""><span class="title" style="font-size: 12px;" id="GothamBold">STORE LOCATIONS</span></a></div>
+              <div><a style="color: white; text-decoration: none;"   href=""><span class="title" style="font-size: 12px;" id="GothamBold">JOBS</span></a></div>
+              <div><a style="color: white; text-decoration: none;"   href="About.html"><span class="title" style="font-size: 12px;" id="GothamBold">ABOUT US</span></a></div>
+              <div><a style="color: white; text-decoration: none;"   href="Contact.html"><span class="title" style="font-size: 12px;" id="GothamBold">CONTACT US</span></a></div>
+        </div>
+        </div>
+        <br><br><br><br>
       <div class="row">
-        <div class="row">
-          <div class="left-text" style="margin-left: 15%; margin-bottom: 9.8%;">
-            <div>
-              <span style="margin-left: 52%; display: block;"><b>06</b></span>
-              <span style="margin-left: 46%;">NOV</span>
-            </div>
-            <div class="veri">
-              <span style=""><b>UPDATE</b></span>
-              <span style="font-size: 12px; display: block;">PRIVILEGES</span>
-            </div>
-            <div>
-              <span style="display: block; margin-left: 34%;"><b>NOW</b></span>
-              <span style="display: block; margin-left: 38%;">2020</span>
-            </div>
-          </div>
-          <div class="col-2 blogBox moreBox"
-            style="background-color:white; min-width: 320px; width: 100%; padding: 2px 2px;">
-            <img src="img/promotion/t1.jpg" width="100%">
-            <br>
-            <h5
-              style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 14px; margin-left: 25px;">
-              2 NOVEMBER 2019 - 31 DECEMBER <br> 2019 <br></h5>
-            <hr style="width:85%; background-color: black; ">
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">
-              โดนัทนมชมพู <br></h5>
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">
-              โดนัทนมชมพู</h5>
-            <hr style="width:85%; background-color: black;">
-            <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"
-              href=""><b class="title">MORE +</b></a>
-          </div>
-          <div class="col-2 blogBox moreBox"
-            style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px;">
-            <img src="img/promotion/t2.jpg" width="100%">
-            <h5
-              style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 14px; margin-left: 25px;">
-              15 OCTOBER 2019 - 31 OCTOBER 2019 <br></h5>
-            <hr style="width:85%; background-color: black;">
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">
-              DUNKIN' Halloween <br></h5>
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">Dunkin'
-              Happy Halloween</h5>
-            <hr style="width:85%; background-color: black;">
-            <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"
-              href=""><b class="title">MORE +</b></a>
-          </div>
-          <div class="col-2 blogBox moreBox"
-            style="background-color:white; min-width: 320px; width: 100%; padding:3px 1px;">
-            <img src="img/promotion/t3.jpg" width="100%">
-            <h5
-              style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 14px; margin-left: 25px; margin-left: 25px;">
-              19 AUGUST 2019 - 30 SEPTEMBER 2019 <br></h5>
-            <hr style="width:85%; background-color: black;">
-            <h5
-              style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px; margin-left: 25px;">
-              DUNKIN' TAKOYAKI STYLE DONUT <br></h5>
-            <h5
-              style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px; margin-left: 25px;">
-              DUNKIN' TAKOYAKI STYLE DONUT</h5>
-            <hr style="width:85%; background-color: black;">
-            <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px; margin-left: 25px;"
-              href=""><b class="title">MORE +</b></a>
-          </div>
-          <div class="col-2 blogBox moreBox"
-            style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px;">
-            <img src="img/promotion/t5.jpg" width="100%">
-            <h5
-              style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 14px; margin-left: 25px;">
-              2 AUGUST 2019 - 31 AUGUST 2019 <br></h5>
-            <hr style="width:85%; background-color: black;">
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">
-              DUNKIN' Golden Boba<br></h5>
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">ดังกิ้น
-              เมนูใหม่ Golden Boba ไข่มุกสีทอง</h5>
-            <hr style="width:85%; background-color: black;">
-            <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"
-              href=""><b class="title">MORE +</b></a>
-          </div>
-          <div class="col-2 blogBox moreBox "
-            style="background-color:white; margin-left: 18%; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
-            <img src="img/promotion/t6.jpg" width="100%">
-            <h5
-              style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 14px; margin-left: 25px;">
-              3 JULY 2019 <br></h5>
-            <hr style="width:85%; background-color: black;">
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">
-              DUNKIN' x SPIDER-MAN FAR FROM HOME<br></h5>
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">DUNKIN' x
-              SPIDER-MAN FAR FROM HOME</h5>
-            <hr style="width:85%; background-color: black;">
-            <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"
-              href=""><b class="title">MORE +</b></a>
-          </div>
-          <div class="col-2 blogBox moreBox"
-            style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
-            <img src="img/promotion/t7.jpg" width="100%">
-            <h5
-              style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">
-              3 APRIL 2019 - 15 MAY 2019<br></h5>
-            <hr style="width:85%; background-color: black;">
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">
-              Dunkin' Summer Party<br></h5>
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">สดใส
-              ต้อนรับซัมเมอร์ กับ Dunkin’ Summer Party</h5>
-            <hr style="width:85%; background-color: black;">
-            <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"
-              href=""><b class="title">MORE +</b></a>
-          </div>
-          <div class="col-2 blogBox moreBox"
-            style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
-            <img src="img/promotion/t8.jpg" width="100%">
-            <h5
-              style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">
-              1 MARCH 2019 - 31 MARCH 2019<br></h5>
-            <hr style="width:85%; background-color: black;">
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">Wow
-              School Break!<br></h5>
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">โดนัท 8
-              ชิ้น เพียง 160 บาทจากราคาเต็ม 232 บาท</h5>
-            <hr style="width:85%; background-color: black;">
-            <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"
-              href=""><b class="title">MORE +</b></a>
-          </div>
-          <div class="col-2 blogBox moreBox"
-            style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
-            <img src="img/promotion/t9.jpg" width="100%">
-            <h5
-              style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">
-              1 FEBRUARY 2019 - 28 FEBRUARY 2019<br></h5>
-            <hr style="width:85%; background-color: black;">
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">Love
-              Confession Donuts<br></h5>
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">
-              ต้อนรับเทศกาลวาเลนไทน์ 2019 นี้ ด้วยโดนัทสื่อรักในธีม "Love Confession" จากดังกิ้นโดนัท
-              ทั้งโดนัทรูปหัวใจสื่อรัก และเครื่องดื่มที่เข้ากันสุดๆ อย่างมอคค่าเย็น และ ชาเขียวสตรอเบอร์รี่ +
-              สตรอเบอร์รี่ป๊อป พิเศษ!! พบโปรโมชั่นสุดเร้าใจ เมื่อซื้อแวลูแพค (โดนัท6ชิ้น) กล่องแรก
-              ได้สิทธิ์ซื้อแวลูแพคกล่องที่ 2 ลด 50% ในราคาพิเศษสุดเพียง 79 บาท รวมทั้งสิ้นเพียง 238 บาทเท่านั้น!!
-              มามะ..มาเจอกันที่ดังกิ้น โดนัท^^</h5>
-            <hr style="width:85%; background-color: black;">
-            <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"
-              href=""><b class="title">MORE +</b></a>
-          </div>
-          <div class="col-2 blogBox moreBox "
-            style="background-color:white; margin-left: 18%; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
-            <img src="img/promotion/t10.jpg" width="100%">
-            <h5
-              style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">
-              31 JANUARY 2019 - 28 FEBRUARY 2019<br></h5>
-            <hr style="width:85%; background-color: black;">
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">
-              โดนัทตรุษจีน 2562<br></h5>
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">
-              ต้อนรับเทศกาลตรุษจีนด้วยโดนัทเสริมความเป็นสิริมงคลจากดังกิ้น โดนัท ที่พบทั้งหน้าแฮปปี้บอย ลัคกี้ริง
-              ฟอร์จูนเบอร์รี่ และ เรดแลมป์ ตั้งแต่วันที่ 2 - 8 กุมภาพันธ์ 2562 นี้เท่านั้น</h5>
-            <hr style="width:85%; background-color: black;">
-            <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"
-              href=""><b class="title">MORE +</b></a>
-          </div>
-          <div class="col-2 blogBox moreBox "
-            style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
-            <img src="img/promotion/t11.jpg" width="100%">
-            <h5
-              style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">
-              1 JANUARY 2019 - 31 JANUARY 2019<br></h5>
-            <hr style="width:85%; background-color: black;">
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">Dream
-              Land Donuts<br></h5>
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">
-              ว้าว..ว้าว.. ในเดือนมกราคม 2562 เริ่มต้นปีด้วยวันเด็ก :) ดังกิ้นโดนัทขอนำเสนอ
-              โดนัทน่ารักน่ากินในคอนเซปต์ดรีมแลนด์ เปิดประตู..สู่ดินแดนแห่งความฝัน พร้อมเครื่องดื่มอร่อยเข้ากันสุดๆ
-              ทั้งคาราเมล มัคคิอาโต และพรีเมี่ยมช็อคโกแลต+ไข่มุกทอง มามะ.เรามีโปรโมชั่นสุดพิเศษด้วย เพียงซื้อแวลูแพค 1
-              กล่อง รับสิทธิ์ซื้อโดนัท 4 ชิ้น เพียง 69 บาท รวมราคา 228 บาทเท่านั้น พบกัน 4 - 31 มกราคม 2562
-              นี้เท่านั้นน้า!!</h5>
-            <hr style="width:85%; background-color: black;">
-            <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"
-              href=""><b class="title">MORE +</b></a>
-          </div>
-          <div class="col-2 blogBox moreBox "
-            style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
-            <img src="img/promotion/t12.jpg" width="100%">
-            <h5
-              style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">
-              11 SEPTEMBER 2018 - 25 OCTOBER 2018<br></h5>
-            <hr style="width:85%; background-color: black;">
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">
-              พบกับโดนัท “สภากาแฟ” ที่เอาใจคนรักกาแฟและเครื่องดื่ม มาทั้งสไตล์ออริจินอลและฟิวชั่นสุดฟิน<br></h5>
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">จัดเต็ม 6
-              รสชาติให้เลือกอร่อยกันไปเลย ทั้งชาไทย นมเย็น คาปูชิโน่ช็อคชิป คอฟฟี่แอนด์ครีม ช็อคโกมัทฉะ และเฮเซลนัทริง
-              พร้อมเครื่องดื่มคุณภาพ 2 เมนูพิเศษ ทั้งทีรามิสุ มอคค่า และ พาสเทล พิงค์มิลค์
-              พบกันได้แล้ววันนี้ที่ดังกิ้นโดนัททุกสาขา</h5>
-            <hr style="width:85%; background-color: black;">
-            <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"
-              href=""><b class="title">MORE +</b></a>
-          </div>
-          <div class="col-2 blogBox moreBox "
-            style="background-color:white; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
-            <img src="img/promotion/t13.jpg" width="100%">
-            <h5
-              style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">
-              25 APRIL 2018 - 30 MAY 2018<br></h5>
-            <hr style="width:85%; background-color: black;">
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">
-              Promotion Heading<br></h5>
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">
-              เมื่อซื้อแวลูแพคหนึ่งกล่องรับสิทธิ์ซื้อโดนัทเพิ่ม 2 ชิ้นทันที ในราคา 20 บาท รวม 179 บาท จากปกคิ 232 บาท
-            </h5>
-            <hr style="width:85%; background-color: black;">
-            <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"
-              href=""><b class="title">MORE +</b></a>
-          </div>
-          <div class="col-2 blogBox moreBox "
-            style="background-color:white; margin-left: 18%; min-width: 320px; width: 100%; padding:3px 3px; display: none;">
-            <img src="img/promotion/t14.jpg" width="100%">
-            <h5
-              style="margin-top: 20px; text-decoration: none; font-family: 'Gotham-Bold'; font-size: 16px; margin-left: 25px;">
-              10 APRIL 2018 - 17 APRIL 2018<br></h5>
-            <hr style="width:85%; background-color: black;">
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X-Bold'; font-size: 20px; margin-left: 25px;">
-              Promotion Heading 2<br></h5>
-            <h5 style="text-decoration: none; font-family: 'DB Ozone X'; font-size: 19px; margin-left: 25px;">
-              เมื่อซื้อแวลูแพคหนึ่งกล่องรับสิทธิ์ซื้อโดนัทเพิ่ม 2 ชิ้นทันที ในราคา 20 บาท รวม 179 บาท จากปกคิ 232 บาท
-            </h5>
-            <hr style="width:85%; background-color: black;">
-            <a style="color: rgb(0, 0, 0); text-decoration: none; font-family: 'Gotham-Bold'; font-size: 12px; font-weight: bolder; margin-left: 25px;"
-              href=""><b class="title">MORE +</b></a>
-          </div>
-          <div id="loadMore">
-            <a href="#" style="font-family: 'Gotham-Bold'; font-size: 12px; text-decoration: none;">Load More</a>
-          </div>
-        </div>
+        <div class="col-3"><span style="font-size: 18px;" id="DBOzoneX">© DUNKIN' DONUTS THAILAND 2018</span></div>
+        <div class="col-9" style="float: right; text-align: right;"><span style="font-size: 18px;" id="DBOzoneX">ADDRESS  :  33/4 THE 9 TOWERS GRAND RAMA9, 18TH FL.,TOWER A,RAMA9 ROAD HUAYKWANG, HUAYKWANG,BANGKOK 10310 THAILAND</sapan></div>
+      </div>    
       </div>
-    </div>
-  </div>
-  <br><br><br>
-  <div class="footer">
-    <div class="row">
-      <div class="col-3" style="margin-top:-30px; padding-right: 30px;">
-        <div>
-          <p>
-          <div>
-            <a style="color: white; text-decoration: none;" href="#"><span class="title" style="font-size: 12px;"
-                id="GothamBold">COFFEE & MORE</span></a>
-          </div>
-          </p>
-          <div>
-            <a style="color: white; text-decoration: none;" href="donut.html"><b style="font-size: 11px;"
-                id="GothamBook" class="title">DONUTS & MUNCHKINS</b></a>
-          </div>
-          <div>
-            <a style="color: white; text-decoration: none;" href="Coffee.html"><b style="font-size: 11px;"
-                id="GothamBook" class="title">COFFEE MENU</b></a>
-          </div>
-          <div>
-            <a style="color: white; text-decoration: none;" href="Sandwiches.html"><b style="font-size: 11px;"
-                id="GothamBook" class="title">SANDWICHES</b></a>
-          </div>
-          <div>
-            <a style="color: white; text-decoration: none;" href="Everyday.html"><b style="font-size: 11px;"
-                id="GothamBook" class="title">SET PACK</b></a>
-          </div>
-          <div>
-            <a style="color: white; text-decoration: none;" href="Other.html"><b style="font-size: 11px;"
-                id="GothamBook" class="title">OTHER BEVERAGE</b></a>
-          </div>
-        </div>
-      </div>
+      <script>
+        var d = new Date();
+        var d1 = d.getDate();
+        document.getElementById("day").innerHTML = d1;
+        ("0" + this.getDate()).slice(-2);
+      </script>
+        <script>var y = new Date();
+          var y1 = y.getFullYear();
+          document.getElementById("year").innerHTML = y1;
+          </script>
+          <script>var m = new Date();
+            var month = new Array();
+            month[0] = "JAN";
+            month[1] = "FEB";
+            month[2] = "MAR";
+            month[3] = "APR";
+            month[4] = "MAY";
+            month[5] = "JUN";
+            month[6] = "JUL";
+            month[7] = "AUG";
+            month[8] = "SEP";
+            month[9] = "OCT";
+            month[10] = "NOV";
+            month[11] = "DEC";
+            var m1 = month[m.getMonth()];
+            document.getElementById("month").innerHTML = m1;
+            </script>
 
-      <div class="col-3" style="margin-top:-60px; padding-right: 30px;">
-        <p>
-        <div>
-          <a style="color: white; text-decoration: none;" href="DDCard.html"><span class="title"
-              style="font-size: 12px;" id="GothamBold">DD CARD</span></a>
-        </div>
-        </p>
-        <div>
-          <a style="color: white; text-decoration: none;" href="DDCard.html"><b class="title" style="font-size: 11px;"
-              id="GothamBook">CARD INFORMATION</b></a>
-        </div>
-        <div>
-          <a style="color: white; text-decoration: none;" href=""><b class="title" style="font-size: 11px;"
-              id="GothamBook">REGISTRATION</b></a>
-        </div>
-        <div>
-          <a style="color: white; text-decoration: none;" href=""><b class="title" style="font-size: 11px;"
-              id="GothamBook">SIGN IN</b></a>
-        </div>
-        <div>
-          <a style="color: white; text-decoration: none;" href=""><b class="title" style="font-size: 11px;"
-              id="GothamBook">REGISTER</b></a>
-        </div>
-      </div>
-
-      <div class="col-3" style="margin-top:-110px; padding-right: 30px;">
-        <p>
-        <div>
-          <a style="color: white; text-decoration: none;" href="Snack.html"><span class="title" style="font-size: 12px;"
-              id="GothamBold">SNACK BOX</span></a>
-        </div>
-        </p>
-        <div>
-          <a style="color: white; text-decoration: none;" href="Snack.html"><b class="title" style="font-size: 11px;"
-              id="GothamBook">INFORMATION</b></a>
-        </div>
-        <div>
-          <a style="color: white; text-decoration: none;" href="Snack.html"><b class="title" style="font-size: 11px;"
-              id="GothamBook">MENU & PRICE</b></a>
-        </div>
-      </div>
-
-      <div class="col-3" style="margin-top:-90px; padding-right: 30px;">
-        <div><a style="color: white; text-decoration: none;" href=""><span class="title" style="font-size: 12px;"
-              id="GothamBold">STORE LOCATIONS</span></a></div>
-        <div><a style="color: white; text-decoration: none;" href=""><span class="title" style="font-size: 12px;"
-              id="GothamBold">JOBS</span></a></div>
-        <div><a style="color: white; text-decoration: none;" href="About.html"><span class="title"
-              style="font-size: 12px;" id="GothamBold">ABOUT US</span></a></div>
-        <div><a style="color: white; text-decoration: none;" href="Contact.html"><span class="title"
-              style="font-size: 12px;" id="GothamBold">CONTACT US</span></a></div>
-      </div>
-    </div>
-    <br><br><br><br>
-    <div class="row">
-      <div class="col-3"><span style="font-size: 18px;" id="DBOzoneX">© DUNKIN' DONUTS THAILAND 2018</span></div>
-      <div class="col-9" style="float: right; text-align: right;"><span style="font-size: 18px;" id="DBOzoneX">ADDRESS :
-          33/4 THE 9 TOWERS GRAND RAMA9, 18TH FL.,TOWER A,RAMA9 ROAD HUAYKWANG, HUAYKWANG,BANGKOK 10310 THAILAND</sapan>
-      </div>
-    </div>
-  </div>
 </body>
-
 </html>
