@@ -284,7 +284,6 @@ text-align: center;
   height: 255px;
 }
 
-
 .bg24736{
   background-color: rgb(275, 275, 275, 0);
   height: 800px;
@@ -295,28 +294,14 @@ text-align: center;
   height: 350px;}
 
 .vlp36 {
-  
   border-left: 1.5px solid black;
   height: 400px;
- 
 }
-
-
-/* 
-#pack:hover{
-  background-color: #f7f7f7; 
-  transition: all 0.8s ease-out;
--webkit-font-smoothing: antialiased; */
-  
-/* } */
-
-
 /*--Sandwiches--*/
 .vls {
   margin-left: 0px;
   border-left: 1.5px solid black;
   height: 250px;
- 
 }
 
 .vls2 {
