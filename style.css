@@ -1211,3 +1211,18 @@ border-radius: 0!important;
 
 .card-img-top:hover{-webkit-transform:scale(1.05);transform:scale(1.05);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}
 
+/* donutpink */
+
+.nextarrow:hover{
+
+  margin-right: -50px; 
+  color: #df2e80;
+  
+  
+}
+.i:hover{
+  color: #E04B94;
+}
+
+
+ 
