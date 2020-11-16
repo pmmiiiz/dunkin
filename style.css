@@ -219,7 +219,7 @@ margin: 60px 0;
   background:  #663701;
   color: white;
   padding: 60px 100px 60px;
-  padding-left: 150px;
+  margin: 0 -10px;
   justify-content: space-between;
 }
 
@@ -754,42 +754,42 @@ text-align: center;
 margin-top: -15px;
 margin-left: -5px;
 border-left: 1.5px solid black;
-height: 150px;
-
-}
-.zen1950 {
-margin-top: -15px;
-margin-left: -5px;
-border-left: 1.5px solid black;
 height: 120px;
 
 }
-.zenQSR {
-margin-top: -20px;
+.zen1950 {
+margin-top: -10px;
 margin-left: -5px;
 border-left: 1.5px solid black;
-height: 220px;
+height: 100px;
+
+}
+.zenQSR {
+margin-top: -5px;
+margin-left: -5px;
+border-left: 1.5px solid black;
+height: 160px;
 
 }
 .zen1981 {
-margin-top: -15px;
+margin-top: -10px;
 margin-left: -5px;
 border-left: 1.5px solid black;
-height: 200px;
+height: 105px;
 
 }
 .zen2016 {
 margin-top: -15px;
 margin-left: -5px;
 border-left: 1.5px solid black;
-height: 270px;
+height: 195px;
 
 }
 .zenCSR{
 margin-top: -15px;
 margin-left: -5px;
 border-left: 1.5px solid black;
-height: 300px;
+height: 230px;
 
 }
 .zen1989{
@@ -800,63 +800,63 @@ height: 75px;
 }
 .zen1997{
   margin-top: -15px;
-  margin-left: 1px;
+  margin-left: -47px;
   border-left: 1.5px solid black;
   height: 75px;
 
 }
 .zen2000{
 margin-top: -15px;
-margin-left: 1px;
+margin-left: -51px;
 border-left: 1.5px solid black;
 height: 75px;
 
 }
 .zen2005{
 margin-top: -15px;
-margin-left: -10px;
+margin-left: -9px;
 border-left: 1.5px solid black;
 height: 75px;
 
 }
 .zen2008{
 margin-top: -15px;
-margin-left: -35px;
+margin-left: -28px;
 border-left: 1.5px solid black;
 height: 75px;
 
 }
 .zen2009{
 margin-top: -15px;
-margin-left: -35px;
+margin-left: -30px;
 border-left: 1.5px solid black;
 height: 75px;
 }
 .zen2010{
 margin-top: -15px;
-margin-left: -5px;
+margin-left: -26px;
 border-left: 1.5px solid black;
-height: 250px;
+height: 120px;
 
 }
 
 .zen2011{
 margin-top: -15px;
-margin-left: -5px;
+margin-left: -17px;
 border-left: 1.5px solid black;
-height: 250px;
+height: 140px;
 
 }
 .zen2012{
 margin-top: -15px;
-margin-left: -60px;
+margin-left: -70px;
 border-left: 1.5px solid black;
-height: 100px;
+height: 80px;
 
 }
 .zen2013{
 margin-top: -15px;
-margin-left: 15px;
+margin-left: 5px;
 border-left: 1.5px solid black;
 height: 75px;
 
@@ -864,7 +864,7 @@ height: 75px;
 
 .zen2014{
 margin-top: -15px;
-margin-left: 10px;
+margin-left: -10px;
 border-left: 1.5px solid black;
 height: 75px;
 
@@ -872,10 +872,10 @@ height: 75px;
 .barpink{
 list-style-type: none;
 margin: 0;
-margin-top: -140px;
+margin-top: -160px;
 margin-left: 1100px;
 padding: 0;
-height: 2180px;
+height: 1940px;
 width: 270px;
 background-color: #ff03a9;
 position: absolute;
