@@ -1225,4 +1225,7 @@ border-radius: 0!important;
 }
 
 
- 
+.newarrow:hover{
+  margin-left: 5px;
+}
+
