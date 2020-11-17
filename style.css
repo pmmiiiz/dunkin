@@ -551,6 +551,7 @@ text-align: center;
 
  .arrow:hover{
          margin-left: 5px;
+         transition: all .25s ease;
  }
 
 
