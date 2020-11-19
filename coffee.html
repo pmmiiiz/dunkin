@@ -120,31 +120,33 @@
 
   <section>
     <img class="mySlides" src="img/slide/coffee.jpg" style="width:100%">
-    <div class="carousel-caption" style="top: 200px; text-align: left;">
+    <div class="carousel-caption" style="top: 200px; text-align: left; ">
       <div class="global-container">
         <center>
           <div class="row"
-            style="display: inline-flex; position: relative;
+            style=" display: inline-flex; position: relative;
           width: 100%; max-width: 1480px; padding: 0 45px; margin: 0 auto; margin-left: 2%; position: relative; padding-top: 30px;">
             <div class="col-12" style="float: left; text-align: left;">
-              <h2 style="font-size: 80px; line-height: 0.8; margin-bottom: 15px;" id="DBOzoneXBd">DUNKIN'
-                DONUTS<br>COFFEE</h2>
-              <p style="font-size: 30px; line-height: 1;" id="DBOzoneX">สดชื่นกับกาแฟอาราบิก้าแท้ 100%<br>จากดังกิ้น
-                โดนัท ให้คุณเลือกเครื่องแบบที่ใช่ในแบบของคุณ</p>
-              <br />
-              <a href="#squaree">
+              <div class="animated animatedFadeInUp fadeInUp">
+                <h2 style="font-size: 80px; line-height: 0.8; margin-bottom: 15px;" id="DBOzoneXBd">DUNKIN'
+                  DONUTS<br>COFFEE</h2>
+                <p style="font-size: 30px; line-height: 1;" id="DBOzoneX">สดชื่นกับกาแฟอาราบิก้าแท้ 100%<br>จากดังกิ้น
+                  โดนัท ให้คุณเลือกเครื่องแบบที่ใช่ในแบบของคุณ</p>
+                <br />
+                <a href="#squaree">
 
-                <div style="width: 135px; height: 27px;   border-radius: 50em; background-color:#E04B94; ">
+                  <div style="width: 135px; height: 27px;   border-radius: 50em; background-color:#E04B94; ">
 
-                  <div class="newarrow">
-                    <i class="arrowjing"><img src="img/slide/arrow.svg"
-                        style="margin-top: -5px; margin-left: 105px;"></i>
+                    <div class="newarrow">
+                      <i class="arrowjing"><img src="img/slide/arrow.svg"
+                          style="margin-top: -5px; margin-left: 105px;"></i>
+                    </div>
+                    <p class="newarrow"
+                      style="font-size: 18px; margin-left: 15px; position: absolute; top: 242px; color:#ffffff"
+                      id="DBOzoneX">MORE DETAIL</p>
                   </div>
-                  <p class="newarrow"
-                    style="font-size: 18px; margin-left: 15px; position: absolute; top: 242px; color:#ffffff"
-                    id="DBOzoneX">MORE DETAIL</p>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
           </div>
         </center>
@@ -195,7 +197,7 @@
                     id="DBOzoneXBd">เอสเปรสโซ่</b><br><br>กาแฟเพียวๆ 100%<br>
                   เสิร์ฟเป็นชอตรสเข้มถึงใจ<br><br><br></p>
               </div>
-              <div style="width: 300px;">
+              <div  style="width: 300px;">
                 <center><img src="img/coffee/1.png" width="100%" style="cursor: pointer;" id="coffee"></center>
               </div>
               <div class="square">
@@ -204,8 +206,8 @@
                     id="DBOzoneXBd">อเมริกาโน่</b><br><br>กาแฟดำเต็มรสชาติของ<br>
                   เอสเพรสโซ่ชอต บวกน้ำร้อน<br>เสิร์ฟหอมๆ ให้คุณสดชื่น<br>พร้อมรับวันใหม่</p>
               </div>
-              <div style="width: 300px;">
-                <center><img src="img/coffee/2.png" width="90%" style="cursor: pointer;" id="coffee"></center>
+              <div  style="width: 300px;">
+                <center><img class="wow1" src="img/coffee/2.png" width="90%" style="cursor: pointer;" id="coffee"></center>
               </div>
             </div>
           </div>
@@ -378,6 +380,7 @@
     <br>
     <br>
 
+
     <div class="footer">
       <div class="row">
         <div class="col-3" style="margin-top:-30px; padding-right: 30px;">
@@ -473,6 +476,26 @@
         </div>
       </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+      gsap.timeline({
+        scrollTrigger: {
+          markers: true,
+          trigger: "#coffee",
+          start: 100,
+          end: 150,
+
+        }
+
+      }).from("#coffee", {
+        duration: 1,
+        opacity:0
+
+      });
+
+    </script>
 </body>
 
 </html>
