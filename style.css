@@ -343,13 +343,14 @@ text-align: center;
 
 
 .square33 {
-  height: 307.5px;
-  width: 307.5px;
+  height: 300px;
+  width: 300px;
   background-color: #F2F2F2;
+  
 }
 .square44 {
-  height: 307.5px;
-  width: 307.5px;
+  height: 300px;
+  width: 300px;
   background-color: #F2F2F2;
 }
 
@@ -613,7 +614,7 @@ text-align: center;
 
 .square333:after {
 content: "";
-bottom: 50%;
+bottom: 0%;
 left: 52%;
 display: block;
 position: relative;
