@@ -902,13 +902,19 @@ margin-right: auto;
 
 }
 
-.w3-button{
+.button{
 margin-left: auto;
 margin-right: auto;
 background-color: white;
 color: black;
-padding: 10px 25px;
+padding: 6px 25px;
 text-align: center;
+}
+.button:hover{
+  background-color: black;
+  color: white;
+
+
 }
 
 
