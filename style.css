@@ -358,6 +358,8 @@ text-align: center;
   height: 615px;
   width: 615px;
   background-color:#e2e2e2;
+  padding: 30px;
+  padding-top: 10px;
 }
 
 .square333 {
@@ -365,12 +367,14 @@ text-align: center;
   width: 307.5px;
   background-color: #e2e2e2;
   line-height: 1;
+  padding: 30px;
 }
 .square444 {
   height: 307.5px;
   width: 307.5px;
   background-color: #e2e2e2;
   line-height: 1;
+  padding: 30px;
 }
 
 
@@ -586,7 +590,7 @@ text-align: center;
 
 .square33:after {
   content: "";
-  bottom: 50%;
+  bottom: 65%;
   left: 52%;
   display: block;
   position: relative;
@@ -616,29 +620,28 @@ text-align: center;
 .square333:after {
 content: "";
 bottom: 0%;
-left: 52%;
+left: 64%;
 display: block;
 position: relative;
 width: 0;
 height: 0;
-margin-top:0px;
+margin-top: 0px;
 margin-left: 0px;
 border-top: 15px solid transparent;
 border-bottom: 15px solid transparent;
 border-left: 15px solid #e2e2e2;
 }
 .square444:before {
-content: "";
-display: block;
-width: 0;
-height: 0;
-position: relative;
-right: 52%;
-top: 30%;
-margin-top:0px;
-margin-left: 0px;
-border-top: 15px solid transparent;
-border-bottom: 15px solid transparent;
+  content: "";
+  left: -66%;
+  display: block;
+  width: 0;
+  height: 0;
+  margin-left: 10px;
+  position: relative;
+  top: 50%;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
 border-right: 15px solid#e2e2e2;
 }
 
@@ -648,7 +651,7 @@ border-right: 15px solid#e2e2e2;
     width: 0;
     height: 0;
     position: relative;
-    right: 51%;
+    right: 56%;
     top: 50%;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
