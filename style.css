@@ -558,6 +558,7 @@ text-align: center;
 
 .line1 {
   margin-left: 50px;
+  align-items: center;
   border-left: 1.5px solid #000;
   height: 100px;
   padding-left: 15px;
@@ -685,12 +686,12 @@ background-color:#773722;
 
 .square_1::after {
 content: "";
-left: 52.2%;
+left: 52%;
 display: block;
 position: relative;
 width: 0;
 height: 0;
-margin-top: -10px;
+margin-top: -25px;
 margin-left: 0px;
 border-top: 15px solid transparent;
 border-bottom: 15px solid transparent;
@@ -700,12 +701,12 @@ border-left: 15px solid #f58220;
 
 .square_2::before {
 content: "";
-right: 99.7%;
+right: 97%;
 display: block;
 position: relative;
 width: 0;
 height: 0;
-top: 150px;
+top: 135px;
 margin-left: 313px;
 border-top: 15px solid transparent;
 border-bottom: 15px solid transparent;
@@ -714,12 +715,12 @@ border-right: 15px solid #f58220;
 
 .square_3::after {
 content: "";
-left: 52.5%;
+left: 52%;
 display: block;
 position: relative;
 width: 0;
 height: 0;
-margin-top: -50px;
+margin-top: -80px;
 margin-left: 0px;
 border-top: 15px solid transparent;
 border-bottom: 15px solid transparent;
@@ -728,12 +729,12 @@ border-left: 15px solid #773722;
 
 .square_4::before {
 content: "";
-right: 99.7%;
+right: 97.5%;
 display: block;
 position: relative;
 width: 0;
 height: 0;
-top: 150px;
+top: 145px;
 margin-left: 313px;
 border-top: 15px solid transparent;
 border-bottom: 15px solid transparent;
@@ -741,11 +742,11 @@ border-right: 15px solid #773722;
 }
 
 
-.dd-img:hover {-webkit-transform:scale(1.14);
-transform:scale(1.14);
-transition:-webkit-transform .5s ease;
-transition:transform .5s ease;
-transition:transform .5s ease, -webkit-transform .5s ease}
+.dd-img:hover {-webkit-transform:scale(1.06);
+transform:scale(1.06);
+transition:-webkit-transform .3s ease;
+transition:transform .3s ease;
+transition:transform .3s ease, -webkit-transform .3s ease}
 
 .dd-img {
 width: 300px;
