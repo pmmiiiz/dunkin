@@ -557,7 +557,8 @@ text-align: center;
 
 
 .line1 {
-  margin-left: 50px;
+  margin-left: 50px ;
+  align-items: center;
   border-left: 1.5px solid #000;
   height: 100px;
   padding-left: 15px;
