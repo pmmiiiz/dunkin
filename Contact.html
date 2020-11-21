@@ -19,7 +19,7 @@
 </style>
 
 
-<body>
+<body style="overflow-x: hidden;">
     <div class="global-container sticky-top" style="background-color: white;">
         <div id="loader-bg">
             <img src="img/header/logo.png "  id="loader-bg-1">
@@ -118,8 +118,8 @@
     <div class="global-container">
         <div style="margin: 120px; margin-top: 60px;">
             <center>
-                <div class="row" style="display: inline-flex;">
-                    <div class="pink" style="padding: 30px;">
+                <div class="row" style="display: inline-flex; position: relative; width: 100%; max-width: 1380px; padding: 0 40px; margin: 0 auto;">
+                    <div class="pink" style="padding: 30px; width: 50%;">
                         <h3 style="font-size: 40px; line-height:1; color: white;" id="DBOzoneXBd">บริษัท
                                 โกลเด้น โดนัท (ประเทศไทย) จำกัด</h3>
                         <p style="color: white; margin:10px; line-height:1; font-size: 20px;" id="DBOzoneX">
@@ -137,10 +137,10 @@
                         <p style="color: white; margin:0; font-size: 20px; line-height:1;" id="DBOzoneX">ติดต่อนักลงทุนสัมพันธ์<br>โทร:
                             02-079-9765 ต่อ 9112 อีเมล์: IR@mudman.co.th</p>
                     </div>
-                    <div>
+                    <div style="width: 50%;">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7750.657955700493!2d100.568173!3d13.759024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x734244d795056870!2sThe%209th%20Towers%20Grand%20Rama%20IX!5e0!3m2!1sen!2sth!4v1602745180012!5m2!1sen!2sth"
-                            width="650" height="460" frameborder="0" style="border:0;" allowfullscreen=""
+                            width="100%" height="460" frameborder="0" style="border:0;" allowfullscreen=""
                             aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
@@ -148,7 +148,7 @@
         </center>
     </div>
 
-    <div class="row" style="margin-left: 550px; margin-right: 550px;  text-align: center;">
+    <div class="row" style=" position: relative; width: 100%; max-width: 1380px; padding: 0 40px; margin: 0 auto; text-align: center;">
         <div class="col-12" style="float: left;">
             <p style="font-size: 18px; line-height:1; margin: 0;" id="DBOzoneX">Thank you for your interest in Dunkin' Donuts</p>
             <p style="font-size: 18px; line-height:1; margin: 5;" id="DBOzoneX">Fields marked with an asterisk (*) are required.</p>
@@ -160,9 +160,11 @@
     <form action="http://www.dunkindonuts.co.th/contact/store" method="post" accept-charset="utf-8">
         <input type="hidden" name="csrf_token_dunkindonut" value="0dd7b7a43ba0d23a37d165afa397800d" />
         <center>
-            <div class="global-container" style="margin-left: 400px; margin-right: 400px; display: inline-block; width:850px; font-size: 16px;" id="DBOzoneX">
+            <div class="global-container" style=" max-width: 800px;
+            margin: 40px auto;
+            color: #000;" id="DBOzoneX">
                 <div class="form-row">
-                    <div class="form-group col-5 m-3">
+                    <div class="form-group col-6" style="flex-basis: 50%; padding: 0 20px;">
                         <div class="input-item is-required">
                             <input style="display: block;
                             width: 100%;
@@ -172,12 +174,12 @@
                             border-radius: 0;
                             outline: 0;" type="text" placeholder="NAME" name="NAME" value="" required>
                             <span class="required-mark" style="position: absolute;
-                            right: 0;
+                            right: 20px;
                             top: 0;">(*)</span>
                         </div>
                     </div>
                     <!-- <div class="col-1"></div> -->
-                    <div class="form-group col-5 m-3">
+                    <div class="form-group col-6" style="flex-basis: 50%; padding: 0 20px;">
                         <div>
                             <div class="input-item is-required">
                                 <input style="display: block;
@@ -187,14 +189,14 @@
                             border-bottom: 1px solid #bbc3c7;
                             border-radius: 0;
                             outline: 0;" type="text" placeholder="SURNAME" name="SURNAME" value="" required>
-                                <span class="required-mark" style="position: absolute; right: 0;
+                                <span class="required-mark" style="position: absolute; right: 20px;
                             top: 0;">(*)</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="form-group col-5 m-3" style="text-align: right;">
+                    <div class="form-group col-6" style="flex-basis: 50%; padding: 0 20px;">
                         <div class="input-item is-required">
                             <input style="display: block;
                             width: 100%;
@@ -203,11 +205,11 @@
                             border-bottom: 1px solid #bbc3c7;
                             border-radius: 0;
                             outline: 0;" type="text" placeholder="PHONE" name="PHONE" value="" required>
-                            <span class="required-mark" style="position: absolute; right: 0;
+                            <span class="required-mark" style="position: absolute; right: 20px;
                             top: 0;">(*)</span>
                         </div>
                     </div>
-                    <div class="form-group col-5 m-3">
+                    <div class="form-group col-6" style="flex-basis: 50%; padding: 0 20px;">
                         <div>
                             <div class="input-item is-required">
                                 <input style="display: block;
@@ -217,7 +219,7 @@
                             border-bottom: 1px solid #bbc3c7;
                             border-radius: 0;
                             outline: 0;" type="email" placeholder="EMAIL" name="email" value="" required>
-                                <span class="required-mark" style="position: absolute; right: 0;
+                                <span class="required-mark" style="position: absolute; right: 20px;
                                 top: 0;">(*)</span>
                             </div>
                         </div>
@@ -226,7 +228,7 @@
                 </div>
 
                 <div class="form-row">
-                    <div class="form-group col-11 m-3 " style="text-align: center;">
+                    <div class="form-group col-12" style="flex-basis: 100%; padding: 0 0px;">
                         <div class="input-item is-required">
                             <input style="display: block;
                             width: 95%;
@@ -237,14 +239,14 @@
                             outline: 0;" type="text" placeholder="SUBJECT" name="subject" value="" required>
 
                             <span class="required-mark"
-                                style="position:absolute; right:4.5%; top:0;">(*)</span>
+                                style="position:absolute; right: 20px; top:0;">(*)</span>
 
                         </div>
                     </div>
                 </div>
 
                 <div class="form-row">
-                    <div class="form-group col-11 m-3" style="text-align: center;">
+                    <div class="form-group col-12" style="flex-basis: 100%; padding: 0 0px;">
                         <div>
                             <div class="input-item is-required">
                                 <textarea style="overflow: auto; height: 80px; resize: none;
@@ -257,7 +259,7 @@
                             border-radius: 0;
                             outline: 0;" type="text" placeholder="MESSAGE" name="massage" required></textarea>
                                 <span class="required-mark"
-                                    style="position:absolute; right:4.5%; top:0;">(*)</span>
+                                    style="position:absolute; right:20px; top:0;">(*)</span>
                             </div>
                         </div>
                     </div>
