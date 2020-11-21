@@ -145,16 +145,22 @@ scroll-behavior: smooth;
 }
 
 .dd-navlink a {
-  padding-right: 40px;
+  padding: 0 20px;
   display: block;
   font-size: 17px;
   color: #fff;
 }
 
+@media only screen and (max-width: 1440px){
+  .dd-navlink a{
+      padding: 0 20px 0 0;
+  }     
+}
+
 .dd-navbarsocial {
   position: absolute;
-  right: 7%;
-  bottom: 62px;
+  right: 0;
+  bottom: -8px;
 }
 
 .dd-link{
@@ -164,7 +170,7 @@ scroll-behavior: smooth;
 .dd-nav .dd-link a {
 font-size: 14px;
 display: block;
-padding: 0 15px;
+padding: 0 14px;
 color: #663701;
 font-family: "GothamBold";
 }
