@@ -269,13 +269,18 @@ text-align: center;
 #donut:hover{-webkit-transform:scale(1.15);transform:scale(1.15);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}
 
 #donutss{
-  padding: 0 31px;
   text-align: center;
   font-size: 18px;
+  transition:-webkit-transform .3s ease;
+  z-index: -5;
 }
 
-#donutss:hover{-webkit-transform:scale(1.15);transform:scale(1.15);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease}
-
+/* #donutss:hover{-webkit-transform:scale(1.05);transform:scale(1.05);transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease; z-index: -5;} */
+#donutss:hover{
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+  z-index: -5;
+}
 
 .title:hover {color:#f77b00;transition:color .15s ease}
 #donutsss{
@@ -352,12 +357,14 @@ text-align: center;
   height: 300px;
   width: 300px;
   background-color: #F2F2F2;
+  z-index: 5;
   
 }
 .square44 {
   height: 300px;
   width: 300px;
   background-color: #F2F2F2;
+  z-index: 5;
 }
 
 .square55 {
@@ -366,6 +373,7 @@ text-align: center;
   background-color:#e2e2e2;
   padding: 30px;
   padding-top: 10px;
+  z-index: 5;
 }
 
 .square333 {
@@ -374,6 +382,7 @@ text-align: center;
   background-color: #e2e2e2;
   line-height: 1;
   padding: 30px;
+  z-index: 5;
 }
 .square444 {
   height: 307.5px;
@@ -381,6 +390,7 @@ text-align: center;
   background-color: #e2e2e2;
   line-height: 1;
   padding: 30px;
+  z-index: 5;
 }
 
 
@@ -624,6 +634,7 @@ text-align: center;
 }
 
 .square333:after {
+z-index: 5;
 content: "";
 bottom: 0%;
 left: 64%;

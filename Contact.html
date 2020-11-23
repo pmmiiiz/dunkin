@@ -13,128 +13,172 @@
     <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="./script.js"></script>
 </head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* The Modal (background) */
+    .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 100px;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        margin-top: 100px;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 35%;
+    }
 </style>
 
 
 <body style="overflow-x: hidden;">
     <div class="global-container sticky-top" style="background-color: white;">
         <div id="loader-bg">
-            <img src="img/header/logo.png "  id="loader-bg-1">
-          </div>
-        <header>
-        <nav class="dd-nav">
-          <div class="dd-container">
-            <div class="dd-navbar">
-              <a href="index.html" class="logo">
-                <img src="img/header/logo.png">
-              </a>
-            </div>
-            <div class="dd-navbarsocial">
-                <div class="dd-container">
-                    <ul class="dd-social">
-                        <li>
-                            <a href="https://www.facebook.com/Dunkinthai" target="_blank" rel="noopener">
-                                <img src="img/header/icon-fb.svg" alt="facebook" width="32px">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/dunkinthai/?hl=th" target="_blank" rel="noopener">
-                                <img src="img/header/icon-instagram.svg" alt="instagram" width="32px">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://timeline.line.me/user/_dfyRs2xE1F97v608mWcunldzkz5RKjAd8VDr1JA" target="_blank"
-                                rel="noopener">
-                                <img src="img/header/icon-line.svg" alt="line" width="32px">
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="dd-link" style="font-weight: 200px;">
-                        <li><a style="font-size: 14px;" id="GothamBold" href="About.html">ABOUT US</a></li>
-                        <li>
-                            <h6 style="color: #663701; font-size: 14px;" id="GothamBold">|</h6>
-                        </li>
-                        <li><a style="font-size: 14px;" id="GothamBold" href="Contact.html">CONTACT US</a></li>
-                    </ul>
-                </div>
-            </div>
-          </div>
-      
-          <div class="dd-navlist">
-            <div class="dd-navlink">
-                <div class="dd-container" style="padding: 0 40px;">
-                    <div>
-                        <a style="font-size: 14px;" id="GothamBold" href="index.html">HOME </a>
-                    </div>
-                    <div>
-                        <a style="font-size: 14px;" id="GothamBold" href="coffee.html">COFFEE & MORE </a>
-                    </div>
-                    <div>
-                        <a style="font-size: 14px;" id="GothamBold" href="DDCard.html">DD CARD</a>
-                    </div>
-                    <div>
-                        <a style="font-size: 14px;" id="GothamBold" href="Snack.html">SNACK BOX</a>
-                    </div>
-                    <div>
-                        <a style="font-size: 14px;" id="GothamBold" href="promotion.html">PROMOTION</a>
-                    </div>
-                    <div>
-                        <a style="font-size: 14px;" id="GothamBold" href="">STORE LOCATIONS</a>
-                    </div>
-                    <div>
-                    <a style="font-size: 14px;" id="GothamBold" href="">JOBS  </a>
-                    </div>
-                </div>
-            </div>
-            <div class="dd-navlink is-sub">
-                <div class="dd-container" style="padding: 0 40px;">
-                    <div>
-                        <a style="font-size: 14px;" id="GothamBook" href="donut.html">DONUTS & MUNCHKINS</a>
-                    </div>
-                    <div>
-                        <a style="font-size: 14px;" id="GothamBook" href="coffee.html">COFFEE MENU</a>
-                    </div>
-                    <div>
-                        <a style="font-size: 14px;" id="GothamBook" href="Sandwiches.html">SANDWICHES</a>
-                    </div>
-                    <div>
-                        <a style="font-size: 14px;" id="GothamBook" href="Everyday.html">EVERYDAY PACK</a>
-                    </div>
-                    <div>
-                        <a style="font-size: 14px;"  id="GothamBook" href="Other.html">OTHER BEVERAGE</a>
-                    </div>
-                </div>
-            </div>
-
-
+            <img src="img/header/logo.png " id="loader-bg-1">
         </div>
-        </nav>
-      </header>
-      </div>
+        <header>
+            <nav class="dd-nav">
+                <div class="dd-container">
+                    <div class="dd-navbar">
+                        <a href="index.html" class="logo">
+                            <img src="img/header/logo.png">
+                        </a>
+                    </div>
+                    <div class="dd-navbarsocial">
+                        <div class="dd-container">
+                            <ul class="dd-social">
+                                <li>
+                                    <a href="https://www.facebook.com/Dunkinthai" target="_blank" rel="noopener">
+                                        <img src="img/header/icon-fb.svg" alt="facebook" width="32px">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/dunkinthai/?hl=th" target="_blank"
+                                        rel="noopener">
+                                        <img src="img/header/icon-instagram.svg" alt="instagram" width="32px">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://timeline.line.me/user/_dfyRs2xE1F97v608mWcunldzkz5RKjAd8VDr1JA"
+                                        target="_blank" rel="noopener">
+                                        <img src="img/header/icon-line.svg" alt="line" width="32px">
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="dd-link" style="font-weight: 200px;">
+                                <li><a style="font-size: 14px;" id="GothamBold" href="About.html">ABOUT US</a></li>
+                                <li>
+                                    <h6 style="color: #663701; font-size: 14px;" id="GothamBold">|</h6>
+                                </li>
+                                <li><a style="font-size: 14px;" id="GothamBold" href="Contact.html">CONTACT US</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dd-navlist">
+                    <div class="dd-navlink">
+                        <div class="dd-container" style="padding: 0 40px;">
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBold" href="index.html">HOME </a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBold" href="coffee.html">COFFEE & MORE </a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBold" href="DDCard.html">DD CARD</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBold" href="Snack.html">SNACK BOX</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBold" href="promotion.html">PROMOTION</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBold" href="">STORE LOCATIONS</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBold" href="">JOBS </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dd-navlink is-sub">
+                        <div class="dd-container" style="padding: 0 40px;">
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBook" href="donut.html">DONUTS & MUNCHKINS</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBook" href="coffee.html">COFFEE MENU</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBook" href="Sandwiches.html">SANDWICHES</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBook" href="Everyday.html">EVERYDAY PACK</a>
+                            </div>
+                            <div>
+                                <a style="font-size: 14px;" id="GothamBook" href="Other.html">OTHER BEVERAGE</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </nav>
+        </header>
+    </div>
 
     <div class="global-container">
         <div style="margin: 120px; margin-top: 60px;">
             <center>
-                <div class="row" style="display: inline-flex; position: relative; width: 100%; max-width: 1380px; padding: 0 40px; margin: 0 auto;">
+                <div class="row"
+                    style="display: inline-flex; position: relative; width: 100%; max-width: 1380px; padding: 0 40px; margin: 0 auto;">
                     <div class="pink" style="padding: 30px; width: 50%;">
                         <h3 style="font-size: 40px; line-height:1; color: white;" id="DBOzoneXBd">บริษัท
-                                โกลเด้น โดนัท (ประเทศไทย) จำกัด</h3>
+                            โกลเด้น โดนัท (ประเทศไทย) จำกัด</h3>
                         <p style="color: white; margin:10px; line-height:1; font-size: 20px;" id="DBOzoneX">
                             33/4 อาคารเดอะไนน์ ทาวเวอร์ แกรนด์ พระราม 9 ชั้น 18<br />
                             ทาวเวอร์ เอ ถนนพระราม 9 แขวงห้วยขวาง<br />
                             เขตห้วยขวาง กรุงเทพๆ 10310<br /></p>
-                        <p style="color: white; margin:10px; font-size: 20px; line-height:1;" id="DBOzoneX">เบอร์โทรศัพท์:
+                        <p style="color: white; margin:10px; font-size: 20px; line-height:1;" id="DBOzoneX">
+                            เบอร์โทรศัพท์:
                             02-079-9765<br>แฟกซ์: 02-079-9755-56 <br>แนะนำ ติชม /
                             ติดต่อสอบถาม<br>ddmarketing@goldendonuts.co.th
                         </p>
-                        <p style="color: white; margin-top:20px; margin-bottom:20px; font-size: 20px; line-height:1;" id="DBOzoneX">
+                        <p style="color: white; margin-top:20px; margin-bottom:20px; font-size: 20px; line-height:1;"
+                            id="DBOzoneX">
                             ติดต่อบริการจัดเลี้ยง<br>dunkindelivery@goldendonuts.co.th </p>
-                        <p style="color: white; margin-bottom:20px; font-size: 20px; line-height:1;" id="DBOzoneX">Corporate Contact<br>เบอร์โทรศัพท์ - 02
+                        <p style="color: white; margin-bottom:20px; font-size: 20px; line-height:1;" id="DBOzoneX">
+                            Corporate Contact<br>เบอร์โทรศัพท์ - 02
                             079 9765 เว็บไซต์ - www.mudman.co.th</p>
-                        <p style="color: white; margin:0; font-size: 20px; line-height:1;" id="DBOzoneX">ติดต่อนักลงทุนสัมพันธ์<br>โทร:
+                        <p style="color: white; margin:0; font-size: 20px; line-height:1;" id="DBOzoneX">
+                            ติดต่อนักลงทุนสัมพันธ์<br>โทร:
                             02-079-9765 ต่อ 9112 อีเมล์: IR@mudman.co.th</p>
                     </div>
                     <div style="width: 50%;">
@@ -148,16 +192,19 @@
         </center>
     </div>
 
-    <div class="row" style=" position: relative; width: 100%; max-width: 1380px; padding: 0 40px; margin: 0 auto; text-align: center;">
+    <div class="row"
+        style=" position: relative; width: 100%; max-width: 1380px; padding: 0 40px; margin: 0 auto; text-align: center;">
         <div class="col-12" style="float: left;">
-            <p style="font-size: 18px; line-height:1; margin: 0;" id="DBOzoneX">Thank you for your interest in Dunkin' Donuts</p>
-            <p style="font-size: 18px; line-height:1; margin: 5;" id="DBOzoneX">Fields marked with an asterisk (*) are required.</p>
+            <p style="font-size: 18px; line-height:1; margin: 0;" id="DBOzoneX">Thank you for your interest in Dunkin'
+                Donuts</p>
+            <p style="font-size: 18px; line-height:1; margin: 5;" id="DBOzoneX">Fields marked with an asterisk (*) are
+                required.</p>
         </div>
     </div>
 
 
 
-    <form action="http://www.dunkindonuts.co.th/contact/store" method="post" accept-charset="utf-8">
+    <form action="javascript:void(0);">
         <input type="hidden" name="csrf_token_dunkindonut" value="0dd7b7a43ba0d23a37d165afa397800d" />
         <center>
             <div class="global-container" style=" max-width: 800px;
@@ -166,7 +213,7 @@
                 <div class="form-row">
                     <div class="form-group col-6" style="flex-basis: 50%; padding: 0 20px;">
                         <div class="input-item is-required">
-                            <input style="display: block;
+                            <input id="NAME" style="display: block;
                             width: 100%;
                             appearance: none;
                             border: 0;
@@ -182,7 +229,7 @@
                     <div class="form-group col-6" style="flex-basis: 50%; padding: 0 20px;">
                         <div>
                             <div class="input-item is-required">
-                                <input style="display: block;
+                                <input id="SURNAME" style="display: block;
                             width: 100%;
                             appearance: none;
                             border: 0;
@@ -198,7 +245,7 @@
                 <div class="form-row">
                     <div class="form-group col-6" style="flex-basis: 50%; padding: 0 20px;">
                         <div class="input-item is-required">
-                            <input style="display: block;
+                            <input id="PHONE" style="display: block;
                             width: 100%;
                             appearance: none;
                             border: 0;
@@ -212,7 +259,7 @@
                     <div class="form-group col-6" style="flex-basis: 50%; padding: 0 20px;">
                         <div>
                             <div class="input-item is-required">
-                                <input style="display: block;
+                                <input id="EMAIL" style="display: block;
                             width: 100%;
                             appearance: none;
                             border: 0;
@@ -230,7 +277,7 @@
                 <div class="form-row">
                     <div class="form-group col-12" style="flex-basis: 100%; padding: 0 0px;">
                         <div class="input-item is-required">
-                            <input style="display: block;
+                            <input id="SUBJECT" style="display: block;
                             width: 95%;
                             appearance: none;
                             border: 0;
@@ -238,8 +285,7 @@
                             border-radius: 0;
                             outline: 0;" type="text" placeholder="SUBJECT" name="subject" value="" required>
 
-                            <span class="required-mark"
-                                style="position:absolute; right: 20px; top:0;">(*)</span>
+                            <span class="required-mark" style="position:absolute; right: 20px; top:0;">(*)</span>
 
                         </div>
                     </div>
@@ -249,7 +295,7 @@
                     <div class="form-group col-12" style="flex-basis: 100%; padding: 0 0px;">
                         <div>
                             <div class="input-item is-required">
-                                <textarea style="overflow: auto; height: 80px; resize: none;
+                                <textarea id="MESSAGE" style="overflow: auto; height: 80px; resize: none;
                             
                             display: block;
                             width: 95%;
@@ -257,22 +303,22 @@
                             border: 0;
                             border-bottom: 1px solid #bbc3c7;
                             border-radius: 0;
-                            outline: 0;" type="text" placeholder="MESSAGE" name="massage" required></textarea>
-                                <span class="required-mark"
-                                    style="position:absolute; right:20px; top:0;">(*)</span>
+                            outline: 0;" type="text" placeholder="MESSAGE" name="message" required></textarea>
+                                <span class="required-mark" style="position:absolute; right:20px; top:0;">(*)</span>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div></center><br>
+            </div>
+        </center><br>
 
-            <center>
-                <div class="row" style="margin-bottom: 60px;">
-                    <button class="button">
-                        <span style="font-size: 12px;" id="GothamBold"><b>SUBMIT</b></span>
-                    </button>
-                </div>
-            </center>
+        <center>
+            <div class="row" style="margin-bottom: 60px;">
+                <button class="button" id="myBtn" onclick="">
+                    <span style="font-size: 12px;" id="GothamBold"><b>SUBMIT</b></span>
+                </button>
+            </div>
+        </center>
     </form>
     </div>
     </div>
@@ -280,76 +326,158 @@
     <br>
     <br>
     <br>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <img src="img/about/social_share.jpg" width="100%"><br>
+            <p style="text-align: center; font-size: 24px; " id="DBOzoneX">Thank you for your contact.</p>
+            <center><button id="close" style="background-color: #ee4297; width: 100px; border: 0; color: white; padding: 10px; font-size: 12px; outline: 0;
+          border-radius: .25em;">OK</button></center>
+        </div>
+
+    </div>
     <div class="footer">
         <div class="global-container" style="background-color: #663701; height: 226px;">
             <center>
-                <div class="row" style="display: inline-flex; position: relative;
+                <div class="row"
+                    style="display: inline-flex; position: relative;
            width: 100%; max-width: 1380px; padding: 0px 60px; margin-right: auto; margin-left: auto; margin-top: -10px; text-align: left;">
-            <div class="col-3" style="margin-top:-25px; left: 5px;">
-                    <p><div style="line-height: 0.1;">
-                        <a style="color: white; text-decoration: none;"  href="#"><span class="title" style="font-size: 12px;" id="GothamBold">COFFEE & MORE</span></a>
-                    </div></p>
-                    <div style="line-height: 1;">
-                        <a style="color: white; text-decoration: none;"  href="donut.html"><b style="font-size: 11px;" id="GothamBook" class="title">DONUTS & MUNCHKINS</b></a>
+                    <div class="col-3" style="margin-top:-25px; left: 5px;">
+                        <p>
+                        <div style="line-height: 0.1;">
+                            <a style="color: white; text-decoration: none;" href="#"><span class="title"
+                                    style="font-size: 12px;" id="GothamBold">COFFEE & MORE</span></a>
+                        </div>
+                        </p>
+                        <div style="line-height: 1;">
+                            <a style="color: white; text-decoration: none;" href="donut.html"><b
+                                    style="font-size: 11px;" id="GothamBook" class="title">DONUTS & MUNCHKINS</b></a>
+                        </div>
+                        <div style="line-height: 1;">
+                            <a style="color: white; text-decoration: none;" href="Coffee.html"><b
+                                    style="font-size: 11px;" id="GothamBook" class="title">COFFEE MENU</b></a>
+                        </div>
+                        <div style="line-height: 1;">
+                            <a style="color: white; text-decoration: none;" href="Sandwiches.html"><b
+                                    style="font-size: 11px;" id="GothamBook" class="title">SANDWICHES</b></a>
+                        </div>
+                        <div style="line-height: 1;">
+                            <a style="color: white; text-decoration: none;" href="Everyday.html"><b
+                                    style="font-size: 11px;" id="GothamBook" class="title">SET PACK</b></a>
+                        </div>
+                        <div style="line-height: 1;">
+                            <a style="color: white; text-decoration: none;" href="Other.html"><b
+                                    style="font-size: 11px;" id="GothamBook" class="title">OTHER BEVERAGE</b></a>
+                        </div>
                     </div>
-                    <div style="line-height: 1;">
-                        <a style="color: white; text-decoration: none;"  href="Coffee.html"><b style="font-size: 11px;" id="GothamBook" class="title">COFFEE MENU</b></a>
-                    </div>
-                    <div style="line-height: 1;">
-                        <a style="color: white; text-decoration: none;"  href="Sandwiches.html"><b style="font-size: 11px;" id="GothamBook" class="title">SANDWICHES</b></a>
-                    </div>
-                    <div style="line-height: 1;">
-                        <a style="color: white; text-decoration: none;"  href="Everyday.html"><b style="font-size: 11px;" id="GothamBook" class="title">SET PACK</b></a>
-                    </div>
-                    <div style="line-height: 1;">
-                        <a style="color: white; text-decoration: none;"  href="Other.html"><b style="font-size: 11px;" id="GothamBook" class="title">OTHER BEVERAGE</b></a>
-                    </div>
-            </div>
 
-            <div class="col-3" style="margin-top: -43px; left: 75px;">
-                <p><div style="line-height: 0.1;">
-                    <a style="color: white; text-decoration: none;"  href="DDCard.html"><span class="title" style="font-size: 12px;" id="GothamBold">DD CARD</span></a>
-                </div></p>
-                <div style="line-height: 1;">
-                    <a style="color: white; text-decoration: none;"  href="DDCard.html"><b class="title" style="font-size: 11px;" id="GothamBook">CARD INFORMATION</b></a>
-                </div>
-                <div style="line-height: 1;">
-                    <a style="color: white; text-decoration: none;"  href=""><b class="title" style="font-size: 11px;" id="GothamBook">REGISTRATION</b></a>
-                </div>
-                <div style="line-height: 1;">
-                    <a style="color: white; text-decoration: none;"  href=""><b class="title" style="font-size: 11px;" id="GothamBook">SIGN IN</b></a>
-                </div>
-                <div style="line-height: 1;">
-                    <a style="color: white; text-decoration: none;"  href=""><b class="title" style="font-size: 11px;" id="GothamBook">REGISTER</b></a>
-                </div>
-            </div>
+                    <div class="col-3" style="margin-top: -43px; left: 75px;">
+                        <p>
+                        <div style="line-height: 0.1;">
+                            <a style="color: white; text-decoration: none;" href="DDCard.html"><span class="title"
+                                    style="font-size: 12px;" id="GothamBold">DD CARD</span></a>
+                        </div>
+                        </p>
+                        <div style="line-height: 1;">
+                            <a style="color: white; text-decoration: none;" href="DDCard.html"><b class="title"
+                                    style="font-size: 11px;" id="GothamBook">CARD INFORMATION</b></a>
+                        </div>
+                        <div style="line-height: 1;">
+                            <a style="color: white; text-decoration: none;" href=""><b class="title"
+                                    style="font-size: 11px;" id="GothamBook">REGISTRATION</b></a>
+                        </div>
+                        <div style="line-height: 1;">
+                            <a style="color: white; text-decoration: none;" href=""><b class="title"
+                                    style="font-size: 11px;" id="GothamBook">SIGN IN</b></a>
+                        </div>
+                        <div style="line-height: 1;">
+                            <a style="color: white; text-decoration: none;" href=""><b class="title"
+                                    style="font-size: 11px;" id="GothamBook">REGISTER</b></a>
+                        </div>
+                    </div>
 
-            <div class="col-3" style="margin-top:-75px; left: 132px;">
-                <p><div style="line-height: 0.1;">
-                <a style="color: white; text-decoration: none;"  href="Snack.html"><span class="title" style="font-size: 12px;" id="GothamBold">SNACK BOX</span></a>
-                </div></p>
-                <div style="line-height: 1;">
-                    <a style="color: white; text-decoration: none;"  href="Snack.html"><b class="title" style="font-size: 11px;" id="GothamBook">INFORMATION</b></a>
+                    <div class="col-3" style="margin-top:-75px; left: 132px;">
+                        <p>
+                        <div style="line-height: 0.1;">
+                            <a style="color: white; text-decoration: none;" href="Snack.html"><span class="title"
+                                    style="font-size: 12px;" id="GothamBold">SNACK BOX</span></a>
+                        </div>
+                        </p>
+                        <div style="line-height: 1;">
+                            <a style="color: white; text-decoration: none;" href="Snack.html"><b class="title"
+                                    style="font-size: 11px;" id="GothamBook">INFORMATION</b></a>
+                        </div>
+                        <div style="line-height: 1;">
+                            <a style="color: white; text-decoration: none;" href="Snack.html"><b class="title"
+                                    style="font-size: 11px;" id="GothamBook">MENU & PRICE</b></a>
+                        </div>
+                    </div>
+
+                    <div class="col-3" style="margin-top:-62px; left: 152px;">
+                        <div style="line-height: 1.1;"><a style="color: white; text-decoration: none;" href=""><span
+                                    class="title" style="font-size: 12px;" id="GothamBold">STORE LOCATIONS</span></a>
+                        </div>
+                        <div style="line-height: 1.1;"><a style="color: white; text-decoration: none;" href=""><span
+                                    class="title" style="font-size: 12px;" id="GothamBold">JOBS</span></a></div>
+                        <div style="line-height: 1.1;"><a style="color: white; text-decoration: none;"
+                                href="About.html"><span class="title" style="font-size: 12px;" id="GothamBold">ABOUT
+                                    US</span></a></div>
+                        <div style="line-height: 1.1;"><a style="color: white; text-decoration: none;"
+                                href="Contact.html"><span class="title" style="font-size: 12px;" id="GothamBold">CONTACT
+                                    US</span></a></div>
+                    </div>
                 </div>
-                <div style="line-height: 1;">
-                    <a style="color: white; text-decoration: none;"  href="Snack.html"><b class="title" style="font-size: 11px;" id="GothamBook">MENU & PRICE</b></a>
-                </div>
-            </div>
-        
-            <div class="col-3" style="margin-top:-62px; left: 152px;">
-                <div style="line-height: 1.1;"><a style="color: white; text-decoration: none;"   href=""><span class="title" style="font-size: 12px;" id="GothamBold">STORE LOCATIONS</span></a></div>
-                <div style="line-height: 1.1;"><a style="color: white; text-decoration: none;"   href=""><span class="title" style="font-size: 12px;" id="GothamBold">JOBS</span></a></div>
-                <div style="line-height: 1.1;"><a style="color: white; text-decoration: none;"   href="About.html"><span class="title" style="font-size: 12px;" id="GothamBold">ABOUT US</span></a></div>
-                <div style="line-height: 1.1;"><a style="color: white; text-decoration: none;"   href="Contact.html"><span class="title" style="font-size: 12px;" id="GothamBold">CONTACT US</span></a></div>
-            </div>
-        </div>
-        <br><br><br><br><br><br>
-        <center><div class="row" style="display: inline-flex; position: relative;
+                <br><br><br><br><br><br>
+                <center>
+                    <div class="row"
+                        style="display: inline-flex; position: relative;
         width: 100%; max-width: 1380px; padding: 0px 60px; margin-right: auto; margin-left: auto; text-align: left; top: 5px;">
-            <div class="col-3"><span style="font-size: 18px; line-height: 1;" id="DBOzoneX">© DUNKIN' DONUTS THAILAND 2018</span></div>
-            <div class="col-9" style="float: right; text-align: right; line-height: 1;"><span style="font-size: 18px;" id="DBOzoneX">ADDRESS  :  33/4 THE 9 TOWERS GRAND RAMA9, 18TH FL.,TOWER A,RAMA9 ROAD HUAYKWANG, HUAYKWANG,BANGKOK 10310 THAILAND</sapan></div>
-        </div></center>
+                        <div class="col-3"><span style="font-size: 18px; line-height: 1;" id="DBOzoneX">© DUNKIN' DONUTS
+                                THAILAND 2018</span></div>
+                        <div class="col-9" style="float: right; text-align: right; line-height: 1;"><span
+                                style="font-size: 18px;" id="DBOzoneX">ADDRESS : 33/4 THE 9 TOWERS GRAND RAMA9, 18TH
+                                FL.,TOWER A,RAMA9 ROAD HUAYKWANG, HUAYKWANG,BANGKOK 10310 THAILAND</sapan>
+                        </div>
+                    </div>
+                </center>
         </div>
     </div>
+
+    <script>
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("myBtn");
+        var span = document.getElementById("close");
+
+        btn.onclick = function () {
+            var NAME = document.getElementById("NAME").value;
+            var SURNAME = document.getElementById("SURNAME").value;
+            var PHONE = document.getElementById("PHONE").value;
+            var EMAIL = document.getElementById("EMAIL").value;
+            var SUBJECT = document.getElementById("SUBJECT").value;
+            var MESSAGE = document.getElementById("MESSAGE").value;
+            var canuse = true;
+            console.log(NAME.length);
+            if (NAME.length == 0 || SURNAME.length == 0 || PHONE.length == 0 || SUBJECT.length == 0 || MESSAGE.length == 0 || EMAIL.length == 0) {
+                canuse = false;
+            }
+
+            if (canuse) {
+                modal.style.display = "block";
+            }
+
+        }
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 </body>
+
 </html>
