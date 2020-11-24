@@ -1249,6 +1249,7 @@ border-radius: 0!important;
 
   margin-right: -50px; 
   color: #df2e80;
+
   
   
 }
@@ -1259,6 +1260,8 @@ border-radius: 0!important;
 
 .newarrow:hover{
   margin-left: 5px;
+  text-decoration: none;
+
 }
 
 
