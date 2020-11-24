@@ -14,6 +14,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="./script.js"></script>
     
     
@@ -153,9 +155,6 @@
         <br>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
         <center>
         <div class="row bg247" id="sec1" style=" display: inline-flex; position: relative;
           width: 100%; max-width: 1280px; padding: 0 50px; margin: 0 auto; margin-left: 0%; position: relative;">
@@ -177,8 +176,6 @@
         <br>
         <br>
         <br>  
-        <br>
-        <br>
         <br>
         <br>
         <br>
@@ -210,8 +207,6 @@
         <br>
         <br>
         <br>
-        <br>
-        <br>
 
         <center><div class="row bg247" id="sec3" style=" display: inline-flex; position: relative;
           width: 100%; max-width: 1280px; padding: 0 50px; margin: 0 auto; margin-left: 0%; position: relative;">
@@ -231,8 +226,6 @@
         <br>
         <br>
         <br>  
-        <br>
-        <br>
         <br>
         <br>
         <br>
@@ -260,19 +253,19 @@
     <br>
     <br>
     <br>
-
-      <nav class="verinavbar">
-      <ul>
-          <li><a href="#sec1" data-id="BACON CHEESE" class="is-active"><b style="font-size: 10px;"
-                      id="GothamBold">BACON CHEESE</b></a></li>
-          <li><a href="#sec2" data-id="#CHICKEN HOT DOG" class="is-active"><b style="font-size: 10px;"
-                      id="GothamBold">CHICKEN HOT DOG</b></a></li>
-          <li><a href="#sec3" data-id="#HAM CHEESE" class="is-active"><b style="font-size: 10px;"
-                      id="GothamBold">HAM CHEESE</b></a></li>
-          <li><a href="#sec4" data-id="#SMOKED CHICKEN CHEESE" class="is-active"><b style="font-size: 10px;"
-                      id="GothamBold">SMOKED CHICKEN CHEESE</b></a></li>
-      </ul>
-  </nav>
+    <nav class="verinavbar">
+        <ul id="menu">
+            <li><a href="#sec1" data-id="BACON CHEESE" class="is-active"><b style="font-size: 10px;"
+                id="GothamBold">BACON CHEESE</b></a></li>
+            <li><a href="#sec2" data-id="#CHICKEN HOT DOG" class="is-active"><b style="font-size: 10px;"
+                id="GothamBold">CHICKEN HOT DOG</b></a></li>
+            <li><a href="#sec3" data-id="#HAM CHEESE" class="is-active"><b style="font-size: 10px;"
+                id="GothamBold">HAM CHEESE</b></a></li>
+            <li><a href="#sec4" data-id="#SMOKED CHICKEN CHEESE" class="is-active"><b style="font-size: 10px;"
+                id="GothamBold">SMOKED CHICKEN CHEESE</b></a></li>
+        </ul>
+    </nav>
+      
     
     
   <div class="footer" style="overflow-x: hidden;">
@@ -453,6 +446,53 @@
         backgroundColor: "rgb(247, 247, 247, 1)",
 
     });
+
+        // Cache selectors
+var lastId,
+topMenu = $("#menu"),
+topMenuHeight = topMenu.outerHeight()+15,
+// All list items
+menuItems = topMenu.find("a"),
+// Anchors corresponding to menu items
+scrollItems = menuItems.map(function(){
+  var item = $($(this).attr("href"));
+  if (item.length) { return item; }
+});
+
+// Bind click handler to menu items
+// so we can get a fancy scroll animation
+menuItems.click(function(e){
+var href = $(this).attr("href"),
+  offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+$('html, body').stop().animate({ 
+  scrollTop: offsetTop
+}, 300);
+e.preventDefault();
+});
+
+// Bind to scroll
+$(window).scroll(function(){
+// Get container scroll position
+var fromTop = $(this).scrollTop()+topMenuHeight;
+
+// Get id of current scroll item
+var cur = scrollItems.map(function(){
+ if ($(this).offset().top < fromTop)
+   return this;
+});
+// Get the id of the current element
+cur = cur[cur.length-1];
+var id = cur && cur.length ? cur[0].id : "";
+
+if (lastId !== id) {
+   lastId = id;
+   // Set/remove active class
+   menuItems
+     .parent().removeClass("active")
+     .end().filter("[href='#"+id+"']").parent().addClass("active");
+}                   
+});
+    
 </script>
 </body>
 </html> 

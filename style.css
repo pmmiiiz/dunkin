@@ -160,7 +160,7 @@ scroll-behavior: smooth;
 .dd-navbarsocial {
   position: absolute;
   right: 0;
-  bottom: -8px;
+  top: 25px;
 }
 
 .dd-link{
@@ -1082,11 +1082,17 @@ font-family: 'Gotham-Book';
   text-decoration: none;
   font-family: 'Gotham-Bold';
 }
+/* .verinavbar a:hover, .verinavbar a.is-active{
+  color: #f77b00;
+  text-decoration: none;
+  font-family: 'Gotham-Bold';
+} */
 .verinavbar a:hover{
   color: #f77b00;
   text-decoration: none;
   font-family: 'Gotham-Bold';
 }
+
 #myBtn:hover {
   animation: toTop .2s forwards;
 }
@@ -1260,7 +1266,7 @@ border-radius: 0!important;
 
 .newarrow:hover{
   margin-left: 5px;
-  text-decoration: none;
+ text-decoration: none;
 
 }
 
@@ -1316,4 +1322,28 @@ border-radius: 0!important;
     height: 330px;
     width: 300px;
   
+}
+
+
+
+#menu li {
+    list-style: none;
+}
+
+#menu a {
+    display: block;
+    text-align: center;
+    /* -webkit-transition: .005s all ease-out;
+    -moz-transition: .005s all ease-out;
+    transition: .005s all ease-out; */
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    color: #f77b00;;
+}
+
+#menu li.active a {
+    color: #f77b00;
 }

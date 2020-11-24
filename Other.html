@@ -14,6 +14,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="./script.js"></script>
 </head>
 </style>
@@ -131,7 +133,7 @@
 
     <section>
         <img class="mySlides" src="img/slide/other.jpg" style="width:100%">
-        <br id="iced">
+        <br id="sec1">
         <br>
         <br>
         <br>
@@ -215,7 +217,7 @@
                     <br>
                     <br>
                     <br>
-                    <br id="frappe">
+                    <br id="sec2">
                     <br>
                 </div>
             </div>
@@ -293,7 +295,7 @@
                         จาก ดังกิ้น โดนัท<br />
                         ความอร่อยที่ลงตัว</p>
                     </div>  
-                    <div id="popping"></div>
+                    <div id="sec3"></div>
                 </div></center>
                 <br>
                 <br>
@@ -412,12 +414,12 @@
         </div>
 
     <nav class="verinavbar">
-        <ul>
-            <li><a href="#iced" data-id="#ICED BEVERAGE" class="is-active"><b style="font-size: 10px;"
+        <ul id="menu">
+            <li><a href="#sec1" data-id="#ICED BEVERAGE" class="is-active"><b style="font-size: 10px;"
                         id="GothamBold">ICED BEVERAGE</b></a></li>
-            <li><a href="#frappe" data-id="#FRAPPE" class="is-active"><b style="font-size: 10px;"
+            <li><a href="#sec2" data-id="#FRAPPE" class="is-active"><b style="font-size: 10px;"
                         id="GothamBold">FRAPPE</b></a></li>
-            <li><a href="#popping" data-id="#DD POPPING TEA" class="is-active"><b style="font-size: 10px;"
+            <li><a href="#sec3" data-id="#DD POPPING TEA" class="is-active"><b style="font-size: 10px;"
                         id="GothamBold">DD POPPING TEA</b></a></li>
         </ul>
     </nav>
@@ -536,5 +538,53 @@
                     </center>
             </div>
     </div>
+    <script>
+        // Cache selectors
+    var lastId,
+    topMenu = $("#menu"),
+    topMenuHeight = topMenu.outerHeight()+15,
+    // All list items
+    menuItems = topMenu.find("a"),
+    // Anchors corresponding to menu items
+    scrollItems = menuItems.map(function(){
+      var item = $($(this).attr("href"));
+      if (item.length) { return item; }
+    });
+    
+    // Bind click handler to menu items
+    // so we can get a fancy scroll animation
+    menuItems.click(function(e){
+    var href = $(this).attr("href"),
+      offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+    $('html, body').stop().animate({ 
+      scrollTop: offsetTop
+    }, 300);
+    e.preventDefault();
+    });
+    
+    // Bind to scroll
+    $(window).scroll(function(){
+    // Get container scroll position
+    var fromTop = $(this).scrollTop()+topMenuHeight;
+    
+    // Get id of current scroll item
+    var cur = scrollItems.map(function(){
+     if ($(this).offset().top < fromTop)
+       return this;
+    });
+    // Get the id of the current element
+    cur = cur[cur.length-1];
+    var id = cur && cur.length ? cur[0].id : "";
+    
+    if (lastId !== id) {
+       lastId = id;
+       // Set/remove active class
+       menuItems
+         .parent().removeClass("active")
+         .end().filter("[href='#"+id+"']").parent().addClass("active");
+    }                   
+    });
+        
+         </script>
 </body>
 </html>

@@ -13,6 +13,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.minjs"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="load-more-button.js"></script>
   <script src="date.js"></script>
 </head>
@@ -127,7 +129,7 @@
   <section>
     <img class="Slides" src="img/slide/promotion.jpg" style="width:100%">
   </section>
-  <div id="HilightNav"></div>
+  <div id="sec1"></div>
   <div>&nbsp;</div>
   <div>&nbsp;</div>
   <div>&nbsp;</div>
@@ -168,7 +170,7 @@
           <div style="margin-top: 130px; font-size: 16px; color: white;" id="GothamBold">
             <b>MORE INFO</b>
           </div>
-  <div id="PromotionNav"></div>
+  <div id="sec2"></div>
 
 
         </div>
@@ -459,10 +461,10 @@
     </div>
   </div>
   <nav class="verinavbar">
-    <ul>
-      <li><a href="#HilightNav" data-id="#recommended" class="is-active"><b style="font-size: 10px;"
+    <ul id="menu">
+      <li><a href="#sec1" data-id="#recommended" class="is-active"><b style="font-size: 10px;"
         id="GothamBold">RECOMMENDED</b></a></li>
-      <li><a href="#PromotionNav" data-id="#promotion" class="is-active"><b style="font-size: 10px;"
+      <li><a href="#sec2" data-id="#promotion" class="is-active"><b style="font-size: 10px;"
         id="GothamBold">PROMOTION</b></a></li>
     </ul>
   </nav>
@@ -610,7 +612,62 @@
     month[11] = "DEC";
     var m1 = month[m.getMonth()];
     document.getElementById("month").innerHTML = m1;
+
+   // Cache selectors
+   var lastId,
+topMenu = $("#menu"),
+topMenuHeight = topMenu.outerHeight()+15,
+// All list items
+menuItems = topMenu.find("a"),
+// Anchors corresponding to menu items
+scrollItems = menuItems.map(function(){
+  var item = $($(this).attr("href"));
+  if (item.length) { return item; }
+});
+
+// Bind click handler to menu items
+// so we can get a fancy scroll animation
+menuItems.click(function(e){
+var href = $(this).attr("href"),
+  offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+$('html, body').stop().animate({ 
+  scrollTop: offsetTop
+}, 300);
+e.preventDefault();
+});
+
+// Bind to scroll
+$(window).scroll(function(){
+// Get container scroll position
+var fromTop = $(this).scrollTop()+topMenuHeight;
+
+// Get id of current scroll item
+var cur = scrollItems.map(function(){
+ if ($(this).offset().top < fromTop)
+   return this;
+});
+// Get the id of the current element
+cur = cur[cur.length-1];
+var id = cur && cur.length ? cur[0].id : "";
+
+if (lastId !== id) {
+   lastId = id;
+   // Set/remove active class
+   menuItems
+     .parent().removeClass("active")
+     .end().filter("[href='#"+id+"']").parent().addClass("active");
+}                   
+});
+
+
+
+
   </script>
+
+
+
+
+
 
 </body>
 
