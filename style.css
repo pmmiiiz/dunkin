@@ -1143,7 +1143,7 @@ font-family: 'Gotham-Book';
 }
 .verinavbar {
   position: fixed;
-  z-index: 6;
+  z-index: 10;
   right: 20px;
   -webkit-transform-origin: center top;
   transform-origin: center top;
