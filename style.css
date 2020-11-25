@@ -643,7 +643,7 @@ text-align: center;
 z-index: 5;
 content: "";
 bottom: 0%;
-left: 111%;
+left: 100%;
 display: block;
 position: relative;
 width: 0;
