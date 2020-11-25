@@ -612,8 +612,8 @@ text-align: center;
 
 .square33:after {
   content: "";
-  bottom: 65%;
-  left: 52%;
+  bottom: 50%;
+  left: 100%;
   display: block;
   position: relative;
   width: 0;
@@ -630,7 +630,7 @@ text-align: center;
   width: 0;
   height: 0;
   position: relative;
-  right: 52%;
+  right: 4%;
   top: 30%;
   margin-top:0px;
   margin-left: 0px;
@@ -643,7 +643,7 @@ text-align: center;
 z-index: 5;
 content: "";
 bottom: 0%;
-left: 64%;
+left: 111%;
 display: block;
 position: relative;
 width: 0;
@@ -656,7 +656,7 @@ border-left: 15px solid #e2e2e2;
 }
 .square444:before {
   content: "";
-  left: -66%;
+  left: -20%;
   display: block;
   width: 0;
   height: 0;
@@ -674,7 +674,7 @@ border-right: 15px solid#e2e2e2;
     width: 0;
     height: 0;
     position: relative;
-    right: 56%;
+    right: 7%;
     top: 50%;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
